@@ -88,7 +88,7 @@ export default function Page() {
                                 </div>
                                 <div className="col-6 col-sm-6 col-md-4 col-lg-3">
                                     <div className="single-logo bg-white rounded shadow-sm p-3 mb-4" style={{height: '140px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                                        <img src="/assets/img/logo/zain.png" alt="Brand" style={{maxHeight: '90px', width: 'auto', height: 'auto', objectFit: 'contain'}} />
+                                        <img src="/assets/img/logo/Zain.png" alt="Brand" style={{maxHeight: '90px', width: 'auto', height: 'auto', objectFit: 'contain'}} />
                                     </div>
                                 </div>
                                 <div className="col-6 col-sm-6 col-md-4 col-lg-3">
