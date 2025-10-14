@@ -8,7 +8,8 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                         <div className="col-lg-10 m-auto">
                             <div className="inner-title text-center">
                                 <p>{breadcrumbTitle}</p>
-                                <h2>We’re making work meaningful for everyone, everywhere.</h2>
+                                <h2>We make device distribution predictable—<br/>
+                                for everyone, everywhere.</h2>
                             </div>
                         </div>
                     </div>

@@ -6,66 +6,77 @@ export default function Page() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Apple Products">
                 <div>
+                    <div className="about-inner inner-1 bg-13 section-padding">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="mr50">
+                                        <div className="heading2 no-margin-heading">
+                                            <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Apple Products</small>
+                                            <h2>
+                                                Compliance first, so Apple deployments run right
+                                            </h2>
+                                            <p>
+                                                Amtel is an Apple Authorized Reseller in Kuwait. We source genuine iPhone, iPad, Mac, and Apple Watch, align messaging and paperwork, and hand over calmly—so launches stay brand-safe and replenishment is predictable. Need Apple done right across the GCC?
+                                            </p>
+                                            <div className="space30" />
+                                            <Link className="theme-btn-11" href="/contact">Request Apple Allocation
+                                                <img src="/assets/img/icons/arrow-up-right.svg" alt="" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 mobile-hidden">
+                                    <div className="about-bg-main-img position-relative ml50">
+                                        <img className="border-radius" src="/assets/img/service/service-inner.png" alt="" />
+                                        <div className="corner-right-bottom-shape2 position-absolute">
+                                            <img src="/assets/img/shapes/shape-right-bottom2.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*=====About end=======*/}
+                    {/*=====Single blog start=======*/}
                     <div className="single-service-area padding-top inner-font-1 inner-blog-1" id="home">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="single-service-contents">
-                                        <h3>Marketing  Advertising</h3>
+                                        <h3>Program-Compliant Procurement & Deployment</h3>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            We keep every Apple order aligned with program rules—approved SKUs, region-correct models, and serial validation. Allocations, ETAs, and accessory pairings are planned in advance, so retail, operator, and enterprise deployments stay on schedule.
                                         </p>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            Documentation is exact—PI, invoices, IMEI/serial exports, warranty coverage notes, and destination letters delivered on time. Partners get brand-safe messaging, accurate manifests, and calm logistics from warehouse release to store-ready delivery.
                                         </p>
                                         <div className="space30" />
                                         <div className="single-blog-img">
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
                                         <div className="space40" />
-                                        <h4>Conditions of use the Saudi Quality Mark</h4>
+                                        <h4>What You Can Expect from Our Apple Supply</h4>
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> The
-                                                    Mark should be printed on the product to be identical to the
-                                                    official Mark form.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Authorized sourcing: Genuine devices and accessories through Apple-approved channels.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> It
-                                                    shouldn’t be labeled on the correspondence of the facility.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Program-safe messaging: Assets and wording aligned to Apple guidelines and local market rules.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> The
-                                                    facility can get back to the granting authority for official
-                                                    approval on the documents intended to label the mark.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Serial validation: Model/serial checks mapped to approved regional SKUs.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> In
-                                                    case there is no space for the Quality Mark or it can’t be
-                                                    labeled on the product, the facility should get back to the
-                                                    granting authority to get approval on the labeling place.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Channel-compliant paperwork: Invoices, packing lists, and destination docs that pass audits.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> In
-                                                    case there is no space for the Quality Mark or it can’t be
-                                                    labeled on the product, the facility should get back to the
-                                                    granting authority to get approval on the labeling place.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Predictable allocations: Planned availability and firm ETAs for launches, promos, and rollouts.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> The
-                                                    merchant has the right to label the Quality Mark on the
-                                                    products within the scope of the license.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Single coordination window: One team for orders, documents, updates, and handovers.
                                                 </li>
                                             </ul>
                                         </div>
@@ -74,20 +85,13 @@ export default function Page() {
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h4>Conditions of use the Saudi Quality Mark</h4>
+                                        <h4>Built for brand safety and continuity.</h4>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            Apple programs demand discipline. We coordinate devices, documents, messaging, and handovers—so every intake, transfer, and delivery remains compliant and predictable. Your teams focus on the launch, not the paperwork.
                                         </p>
+                                        <h4>Designed for retail, operator, and enterprise tracks.</h4>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            Whether you're outfitting stores, running bundle promotions, or refreshing fleets, we plan allocations in advance. That keeps channel audits clean, timelines steady, and downstream activities on track.
                                         </p>
                                         <div className="space30" />
                                         <div className="row">
@@ -95,92 +99,116 @@ export default function Page() {
                                                 <div className="single-service-advise">
                                                     <h4>Why do I need it?</h4>
                                                     <p>
-                                                        An experienced PM is essential to ensure a well-executed
-                                                        and successful project. Assigning non-PMs to handle PM
-                                                        work internally is challenging due to competing
-                                                        priorities, workload, and lack of PM training. A
-                                                        consultant PM is an experienced outside expert dedicated
-                                                        to your project team and their success.
+                                                        Apple deployments hinge on compliance—correct SKUs, correct messages, correct documents. A focused, authorized partner reduces operational risk, protects brand trust, and prevents last-minute rework that stalls launches.
                                                     </p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="single-service-advise">
-                                                    <h4>Why Consultia?</h4>
+                                                    <h4>Why Amtel?</h4>
                                                     <p>
-                                                        An experienced PM is essential to ensure a well-executed
-                                                        and successful project. Assigning non-PMs to handle PM
-                                                        work internally is challenging due to competing
-                                                        priorities, workload, and lack of PM training. A
-                                                        consultant PM is an experienced outside expert dedicated
-                                                        to your project team and their success.
+                                                        Since 1999, we've delivered disciplined execution across the GCC, with Apple authorization in Kuwait. Expect serial validation, planned allocations, single-window coordination, and measurable reliability—backed by steady monthly volumes and responsive support.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="space30" />
-                                        <h4>Conditions of use the Saudi Quality Mark</h4>
+                                        <h4>Operational Standards & Compliance</h4>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            We ship with verified serials, region-correct models, and channel-approved paperwork—so audits pass and handovers remain calm.
                                         </p>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            Our teams follow one playbook for booking, packing, messaging, and delivery, keeping timelines predictable even when volumes spike.
                                         </p>
                                         <div className="inner-quote">
                                             <p>
-                                                “ Success is not final; failure is not fatal: it is the
-                                                courage to continue that counts.”
+                                                "Compliance isn't cosmetic; it's the system that protects every launch—device, message, and document."
                                             </p>
-                                            <Link href="#">Winston Churchill.</Link>
+                                            <Link href="#">Amtel Apple Programs Playbook</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="widgets">
                                         <div className="single-widget categories">
-                                            <h3>Categories</h3>
+                                            <h3>Amtel Services</h3>
                                             <ul className="category-list">
                                                 <li>
-                                                    <Link className="active" href="#">Lifestyle
+                                                    <Link href="/single-service-1">Mobile Distribution
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Stories
+                                                    <Link className="active" href="/single-service-2">Apple Products (Kuwait Authorized)
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Updates
+                                                    <Link href="/single-service-3">Tablets, Wearables & Other Electronics
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Development
+                                                    <Link href="/single-service-4">Gaming & Accessories
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Marketing
+                                                    <Link href="/single-service-5">Worldwide Exporting
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div className="single-widget tags-widget">
-                                            <h3>Tags</h3>
-                                            <ul className="tags-list">
-                                                <li><Link href="#">Healthcare</Link></li>
-                                                <li><Link href="#">Consult</Link></li>
-                                                <li><Link href="#">Cahless</Link></li>
-                                                <li><Link href="#">Cyberattacks</Link></li>
-                                                <li><Link href="#">Meeting</Link></li>
-                                                <li><Link href="#">Leadership</Link></li>
-                                                <li><Link href="#">Health Insurace</Link></li>
-                                            </ul>
+                                        <div className="single-widget recent-posts">
+                                            <h3>Recent Articles</h3>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="/single-1">Apple Deployments Done Right: The Non-Negotiables</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">15.JAN.2024</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent1.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="/single-2">From PO to Handover: How to Keep Device Supply Calm</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">12.JAN.2024</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent2.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="/single-3">Building Program-Ready Kits for Education and Enterprise</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">10.JAN.2024</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent3.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="/single-4">Cross-Border Without Friction: Documents That Clear Fast</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">08.JAN.2024</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent4.png" alt="" />
+                                                </div>
+                                            </div>
                                         </div>
                                         <div className="widget-download-card single-widget bg-24">
                                             <h4>Cick here to Download our Company Profile</h4>
@@ -202,8 +230,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-6 m-auto text-center">
                                     <div className="heading2">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Success in
-                                            Numbers</small>
+                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Explore More</small>
                                         <h2>Check out more services</h2>
                                     </div>
                                 </div>
@@ -215,44 +242,68 @@ export default function Page() {
                                             <img src="/assets/img/service/service-1.svg" alt="" />
                                         </div>
                                         <div className="service-content">
-                                            <h3 className="font-f-3">Business Strategy</h3>
+                                            <h3 className="font-f-3">Mobile Distribution</h3>
                                             <p className="font-f-3">
-                                                Crafting unique themes, features, and sophisticated
-                                                integrations into a complete experience has been our
-                                                portfolio.
+                                                Samsung, Honor, Redmi, Tecno, Sony—verified models, clear specs, serial validation, planned availability and predictable assortments.
                                             </p>
-                                            <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                            <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-2.svg" alt="" />
+                                            <img src="/assets/img/service/service-4.svg" alt="" />
                                         </div>
                                         <div className="service-content">
-                                            <h3 className="font-f-3">Technology Strategy</h3>
+                                            <h3 className="font-f-3">Gaming & Accessories</h3>
                                             <p className="font-f-3">
-                                                Crafting unique themes, features, and sophisticated
-                                                integrations into a complete experience has been our
-                                                portfolio.
+                                                PlayStation, Nintendo, Xbox consoles, controllers, and peripherals—category planning, steady continuity, smooth peaks, on-time launches.
                                             </p>
-                                            <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                            <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-3.svg" alt="" />
+                                            <img src="/assets/img/service/service-5.svg" alt="" />
                                         </div>
                                         <div className="service-content">
-                                            <h3 className="font-f-3">Product Strategy</h3>
+                                            <h3 className="font-f-3">Worldwide Exporting</h3>
                                             <p className="font-f-3">
-                                                Making a mistake on your return can be costly. From missed
-                                                deductions, or worse, the dreaded IRS audit.
+                                                Global wholesale exporting of mobiles, tablets, wearables—allocated orders, compliant paperwork, reliable logistics, responsive support.
                                             </p>
-                                            <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                            <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*=====Service end=======*/}
+                    {/*=====Subscribe start=======*/}
+                    <div className="subscribe-4 bg12 padding-90 inner-font-1 inner-subscribe">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="heading4 white-heading inner-heading no-margin-heading">
+                                        <h2>Want updates from Amtel?</h2>
+                                        <p>
+                                            Subscribe for concise partner notes—launches, availability, and documentation updates.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-5 col-md-6 offset-lg-1">
+                                    <div className="sunscribe-form">
+                                        <div className="subscribe-from-wrap">
+                                            <form action="#">
+                                                <input type="email" placeholder="Email Address" />
+                                                <button type="submit" name="button">
+                                                    Subscribe Now
+                                                    <img src="/assets/img/icons/arrow-up-right.svg" alt="" />
+                                                </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

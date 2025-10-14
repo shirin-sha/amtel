@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Page() {
@@ -6,7 +5,7 @@ export default function Page() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Mobile Distribution">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Worldwide Exporting">
                 <div>
                     <div className="about-inner inner-1 bg-13 section-padding">
                         <div className="container">
@@ -14,15 +13,15 @@ export default function Page() {
                                 <div className="col-lg-6">
                                     <div className="mr50">
                                         <div className="heading2 no-margin-heading">
-                                            <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Mobile Distribution</small>
+                                            <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Worldwide Exporting</small>
                                             <h2>
-                                                Our experts make availability predictable and keep your assortments moving
+                                                From GCC hubs to global markets, we make cross-border shipments predictable
                                             </h2>
                                             <p>
-                                                Amtel is more than a supplier. We verify models and serials, align paperwork, and hand over calmly—so launches run on time and replenishment is painless. Want predictable coverage across the GCC?
+                                                We coordinate allocations, documents, and routing for international movements—HS codes correct, serials verified, and customs prepared—so orders clear fast and handovers remain calm. Need steady export coverage to Asia, Europe, or the USA?
                                             </p>
                                             <div className="space30" />
-                                            <Link className="theme-btn-11" href="/contact">Request Allocation
+                                            <Link className="theme-btn-11" href="/contact">Request Export Plan
                                                 <img src="/assets/img/icons/arrow-up-right.svg" alt="" /></Link>
                                         </div>
                                     </div>
@@ -45,38 +44,38 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="single-service-contents">
-                                        <h3>Device Procurement & Delivery</h3>
+                                        <h3>Cross-Border Procurement & Fulfillment</h3>
                                         <p>
-                                            By planning availability with verified model lists and serial-level validation, we keep allocations, ETAs, and packaging specs clear up front—so assortments move smoothly across channels without last-minute surprises.
+                                            We align model lists, region codes, and serial/IMEI checks where required, then schedule export windows with clear ETD/ETA milestones—so assortments land as planned without last-minute changes. Packaging specs and labeling are fixed up front for smooth transit.
                                         </p>
                                         <p>
-                                            Documentation is clean—PI, invoices, IMEI exports, and destination letters delivered on time. Partners get predictable handovers, accurate manifests, and calm logistics from warehouse release to final store delivery.
+                                            Documentation is exact—PI, invoices, packing lists, COO, serial exports, and destination letters readied in advance. From warehouse release to final handover, partners get predictable manifests and status they can share.
                                         </p>
                                         <div className="space30" />
                                         <div className="single-blog-img">
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
                                         <div className="space40" />
-                                        <h4>What You Can Expect from Our Distribution</h4>
+                                        <h4>What You Can Expect from Our Export Operations</h4>
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Verified stock, verified serials: Every unit is IMEI/serial-checked and matched to official model codes.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Compliant documentation: Invoices with HS codes, packing lists, COO, and permits aligned to destination rules.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Channel-compliant paperwork: Invoices, packing lists, and destination documents align with operator and retail requirements.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Verified devices: Region-correct SKUs and serial/IMEI files where auditability matters.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Predictable allocations: Weekly availability plans and firm ETAs reduce last-minute assortment changes.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Predictable windows: Planned export slots with firm ETD/ETA and milestone updates.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Secure handling: Tamper-evident packing, insurance options, and traceable shipments end-to-end.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Secure handling: Proper labeling, tamper-evident packs, insurance options, and traceable routing.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> DOA/returns workflow: Clear RMA windows and advance-replacement paths where partner policies allow.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Issue management: Early escalation, corrective actions, and tidy exception logs when needed.
                                                 </li>
                                                 <li>
-                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Single point of contact: Dedicated coordination for orders, documents, and updates—no chasing multiple teams.
+                                                    <img src="/assets/img/icons/circle-check.svg" alt="" /> Single coordination window: One team for orders, documents, clearances, and handovers.
                                                 </li>
                                             </ul>
                                         </div>
@@ -85,13 +84,13 @@ export default function Page() {
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h4>Reliable supply starts with discipline.</h4>
+                                        <h4>Built for scale, designed to stay calm.</h4>
                                         <p>
-                                            We coordinate devices, documents, and delivery so your teams don't chase updates. Each order moves with verified serials, channel-compliant paperwork, and a clear ETA—reducing surprises at launch or replenishment.
+                                            We synchronize assortments, paperwork, and transit plans—so your teams don't chase updates across time zones. Each shipment moves with verified data, clean documents, and a visible clock.
                                         </p>
-                                        <h4>Built for operators, retailers, and resellers.</h4>
+                                        <h4>For wholesalers, operators, retailers, and resellers.</h4>
                                         <p>
-                                            From assortment planning to post-delivery handover, we keep communication calm and predictable. Allocations are scheduled in advance, so store openings, promos, and seasonal peaks stay on track.
+                                            Whether you're supplying programs or replenishing stores, we schedule export windows in advance. That keeps promotions, rollouts, and seasonal peaks on track across regions.
                                         </p>
                                         <div className="space30" />
                                         <div className="row">
@@ -99,7 +98,7 @@ export default function Page() {
                                                 <div className="single-service-advise">
                                                     <h4>Why do I need it?</h4>
                                                     <p>
-                                                        Transparent inventory, correct documents, and on-time arrivals protect margin and reputation. A focused distribution partner lowers operational risk, stabilizes availability, and frees your team from last-minute sourcing and paperwork firefights.
+                                                        Cross-border work fails on details—wrong HS codes, missing letters, or mis-labeled cartons. A disciplined export partner protects timelines and budgets while reducing customs friction and rework.
                                                     </p>
                                                 </div>
                                             </div>
@@ -107,7 +106,7 @@ export default function Page() {
                                                 <div className="single-service-advise">
                                                     <h4>Why Amtel?</h4>
                                                     <p>
-                                                        Since 1999, we've run multi-brand GCC distribution with Apple authorization in Kuwait. Expect serial validation, planned allocations, single-window coordination, and measurable reliability—backed by steady monthly volumes and responsive support.
+                                                        Since 1999, we've operated multi-brand distribution from GCC hubs, with Apple authorization in Kuwait. Expect serial validation, destination-ready documents, single-window coordination, and measurable reliability across lanes.
                                                     </p>
                                                 </div>
                                             </div>
@@ -115,16 +114,16 @@ export default function Page() {
                                         <div className="space30" />
                                         <h4>Operational Standards & Compliance</h4>
                                         <p>
-                                            We move devices with verified serials, correct HS codes, and channel-approved paperwork—so every intake, transfer, and export clears without friction.
+                                            We ship with region-correct models, verified serials where required, and destination-approved paperwork—so audits pass and intakes are fast.
                                         </p>
                                         <p>
-                                            Our teams follow a single playbook for booking, packing, and handover. That keeps timelines predictable and communication calm, even when volumes spike.
+                                            A single playbook governs booking, packing, and proof-of-delivery, keeping timelines predictable even when volumes spike.
                                         </p>
                                         <div className="inner-quote">
                                             <p>
-                                                "Reliability isn't luck; it's the discipline to do the small things right—every order, every time."
+                                                "Global is just local, repeated—plan the documents, lock the windows, and keep the handover calm."
                                             </p>
-                                            <Link href="#">Amtel Operations Playbook</Link>
+                                            <Link href="#">Amtel Export Operations Playbook</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +149,7 @@ export default function Page() {
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/single-service-5">Worldwide Exporting
+                                                    <Link className="active" href="/single-service-5">Worldwide Exporting
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                             </ul>
@@ -239,6 +238,20 @@ export default function Page() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
+                                            <img src="/assets/img/service/service-1.svg" alt="" />
+                                        </div>
+                                        <div className="service-content">
+                                            <h3 className="font-f-3">Mobile Distribution</h3>
+                                            <p className="font-f-3">
+                                                Samsung, Honor, Redmi, Tecno, Sony—verified models, clear specs, serial validation, planned availability and predictable assortments.
+                                            </p>
+                                            <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="single-inner-service trans-1">
+                                        <div className="service-img">
                                             <img src="/assets/img/service/service-2.svg" alt="" />
                                         </div>
                                         <div className="service-content">
@@ -253,26 +266,12 @@ export default function Page() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-4.svg" alt="" />
+                                            <img src="/assets/img/service/service-3.svg" alt="" />
                                         </div>
                                         <div className="service-content">
-                                            <h3 className="font-f-3">Gaming & Accessories</h3>
+                                            <h3 className="font-f-3">Tablets, Wearables & Other Electronics</h3>
                                             <p className="font-f-3">
-                                                PlayStation, Nintendo, Xbox consoles, controllers, and peripherals—category planning, steady continuity, smooth peaks, on-time launches.
-                                            </p>
-                                            <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="single-inner-service trans-1">
-                                        <div className="service-img">
-                                            <img src="/assets/img/service/service-5.svg" alt="" />
-                                        </div>
-                                        <div className="service-content">
-                                            <h3 className="font-f-3">Worldwide Exporting</h3>
-                                            <p className="font-f-3">
-                                                Global wholesale exporting of mobiles, tablets, wearables—allocated orders, compliant paperwork, reliable logistics, responsive support.
+                                                iPad, MacBook, tablet lines, and Apple Watch with essentials—education, enterprise, retail programs kept replenishment-simple.
                                             </p>
                                             <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                         </div>

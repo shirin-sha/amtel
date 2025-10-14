@@ -9,11 +9,8 @@ export default function TaxBusiness() {
                     <div className="row">
                         <div className="col-md-4 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
-                                    Relief.</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Consultia</span> tax
-                                    is built for
-                                    small business.</h2>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We are here for your devices</small>
+                                <h2 data-aos="fade-up" data-aos-duration={800}>Amtel is built for B2B.</h2>
                             </div>
                         </div>
                     </div>
@@ -23,11 +20,10 @@ export default function TaxBusiness() {
                                 <div className="business-icon">
                                     <img src="/assets/img/icons/tax-business1.png" alt="" />
                                 </div>
-                                <h3>IRS Tax Problems</h3>
-                                <p>Making a mistake on your return can be costly. From missed deductions, or worse, the dreaded
-                                    IRS audit.
-                                </p>
-                                <Link href="#" className="theme-btn-7">Learn More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <h3>Enterprise B2B Mobile Distribution</h3>
+                                <p>High-volume sourcing and allocation for Samsung, Honor, Redmi, Tecno, and Sony. Verified provenance, competitive terms, and dependable continuity across regional
+                                    channel partners.</p>
+                                <Link href="#" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={800}>
@@ -35,11 +31,11 @@ export default function TaxBusiness() {
                                 <div className="business-icon">
                                     <img src="/assets/img/icons/tax-business2.png" alt="" />
                                 </div>
-                                <h3>Tax Preparation and Planning</h3>
-                                <p>Getting the most our of your income and finances is what sets us apart. Whether you need tax
-                                    preparation
-                                    services.</p>
-                                <Link href="#" className="theme-btn-7">Learn More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <h3>Authorized Apple Product Supply</h3>
+                                <p>Channel-compliant procurement and distribution of iPhone, iPad, Mac, Apple Watch,
+                                    and accessories. Apple Exclusive & Authorized Reseller (Kuwait) for retailers,
+                                    operators, and enterprise programs.</p>
+                                <Link href="#" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1000}>
@@ -47,11 +43,11 @@ export default function TaxBusiness() {
                                 <div className="business-icon">
                                     <img src="/assets/img/icons/tax-business3.png" alt="" />
                                 </div>
-                                <h3>Payroll Services</h3>
-                                <p>Managing payroll may not seem like a critical task untill something goes wrong. We have
-                                    experts and
-                                    technology to help you.</p>
-                                <Link href="#" className="theme-btn-7">Learn More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <h3>Global Export & Cross-Border Fulfillment</h3>
+                                <p>End-to-end export operations—allocation, documentation, customs, and multimodal
+                                    shipping—delivered swiftly and compliantly via Aramex | FedEx with confirmed
+                                    handoffs and tracking.</p>
+                                <Link href="#" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1200}>
@@ -59,16 +55,15 @@ export default function TaxBusiness() {
                                 <div className="business-icon">
                                     <img src="/assets/img/icons/tax-business4.png" alt="" />
                                 </div>
-                                <h3>Bookkeeping and Virtual CFO</h3>
-                                <p>We know that competent, consistent bookkeeping is the key to a business success. Sucess
-                                    starts when you
-                                    take charge of books.</p>
-                                <Link href="#" className="theme-btn-7">Learn More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <h3>Wholesale Gaming Consoles & Accessories</h3>
+                                <p>Bulk supply of PlayStation, Nintendo, and Xbox consoles, controllers, and peripherals
+                                    with reliable stock continuity and clear regional warranty guidance.</p>
+                                <Link href="#" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="space20" />
                         <div className="col-12 text-center" data-aos="fade-up" data-aos-duration={1400}>
-                            <Link className="theme-btn-3" href="#">Explore More Services <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                            <Link className="theme-btn-3" href="#">Explore Services →</Link>
                         </div>
                     </div>
                 </div>

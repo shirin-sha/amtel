@@ -9,11 +9,8 @@ export default function Blog() {
                     <div className="row">
                         <div className="col-md-5 m-auto">
                             <div className="heading2 text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
-                                    Relief.</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Take</span> a look at
-                                    the latest
-                                    articles from Consultia Tax.</h2>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Latest from Amtel</small>
+                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Take</span> a look at the latest<br />articles from Amtel.</h2>
                             </div>
                         </div>
                     </div>
@@ -25,12 +22,11 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-contents">
                                     <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Stories</Link></li>
+                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Insights</Link></li>
                                     </ul>
-                                    <h3><Link href="/single">How To Write Your Consulting Firm Mission Statement ( Why It’s
-                                        Important).</Link>
+                                    <h3><Link href="/single">How to Align Model Lists for a Smooth Launch</Link>
                                     </h3>
-                                    <Link href="#" className="theme-btn-4">Read More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                    <Link href="#" className="theme-btn-4">Read More →</Link>
                                 </div>
                             </div>
                         </div>
@@ -41,11 +37,10 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-contents">
                                     <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Product</Link></li>
+                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Guides</Link></li>
                                     </ul>
-                                    <h3><Link href="/single">Personal Branding For Consultants: Be Authentic To Get More
-                                        Clients.</Link></h3>
-                                    <Link href="#" className="theme-btn-4">Read More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                    <h3><Link href="/single">What “Authorized” Means for Apple in Kuwait</Link></h3>
+                                    <Link href="#" className="theme-btn-4">Read More →</Link>
                                 </div>
                             </div>
                         </div>
@@ -56,11 +51,11 @@ export default function Blog() {
                                 </div>
                                 <div className="blog-contents">
                                     <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Business</Link></li>
+                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Operations</Link></li>
                                     </ul>
-                                    <h3><Link href="/single">What Is An Entrepreneurial Consultant? (Examples  Stories).</Link>
+                                    <h3><Link href="/single">Export Documents Checklist for Cross-Border Shipments</Link>
                                     </h3>
-                                    <Link href="#" className="theme-btn-4">Read More <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                    <Link href="#" className="theme-btn-4">Read More →</Link>
                                 </div>
                             </div>
                         </div>

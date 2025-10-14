@@ -9,9 +9,9 @@ export default function Footer1() {
                             <div className="single-footer mr50">
                                 <Link href="/" className="footer-logo"> <img src="/assets/img/logo/site-logo-3.svg" alt="" /></Link>
                                 <div className="space20" />
-                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis
-                                    enim velit mollit.</p>
+                                <p><strong>AMTEL GROUP OF COMPANIES</strong><br />
+                                    We distribute mobiles, tablets, wearables, and gaming for regional channels.<br />
+                                    Four GCC entities with export reach across MEA, Asia, Europe, and the USA.</p>
                             </div>
                         </div>
                         <div className="col-lg col-md-6">
@@ -19,10 +19,11 @@ export default function Footer1() {
                                 <h3>Learn</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="#">Product</Link></li>
-                                        <li><Link href="#">Pricing</Link></li>
-                                        <li><Link href="#">Schedule a demo</Link></li>
-                                        <li><Link href="#">Our Blog</Link></li>
+                                        <li><Link href="#">Services</Link></li>
+                                        <li><Link href="#">Brands &amp; Categories</Link></li>
+                                        <li><Link href="#">Operating Standard</Link></li>
+                                        <li><Link href="#">Case Snapshots</Link></li>
+                                        <li><Link href="#">Insights / Blog</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -32,10 +33,11 @@ export default function Footer1() {
                                 <h3>Our Company</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="#">About us</Link></li>
+                                        <li><Link href="#">About Us</Link></li>
+                                        <li><Link href="#">Governance &amp; Quality</Link></li>
+                                        <li><Link href="#">Careers</Link></li>
                                         <li><Link href="#">Privacy Policy</Link></li>
-                                        <li><Link href="#">User Terms</Link></li>
-                                        <li><Link href="#">Help Centre</Link></li>
+                                        <li><Link href="#">Terms of Use</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -46,19 +48,21 @@ export default function Footer1() {
                                 <div className="footer-contact">
                                     <div className="single-contact">
                                         <div className="contact-icon">
-                                            <img src="/assets/img/icons/contact-phone2.svg" alt="" />
+                                            <img src="/assets/img/icons/contact-email2.svg" alt="" />
                                         </div>
-                                        <Link href="#">USA: +91 02 2585 0556</Link>
-                                        <Link href="#">UK: +61 02 2585 0556</Link>
+                                        <Link href="mailto:sales@amtelintnl.com">sales@amtelintnl.com</Link>
+                                        <Link href="https://amtelintnl.com" target="_blank">amtelintnl.com</Link>
                                     </div>
                                 </div>
                                 <div className="footer-contact">
                                     <div className="single-contact">
                                         <div className="contact-icon">
-                                            <img src="/assets/img/icons/contact-email2.svg" alt="" />
+                                            <img src="/assets/img/icons/contact-phone2.svg" alt="" />
                                         </div>
-                                        <Link href="#">Contacthelp@Demoui.co</Link>
-                                        <Link href="#">Info@consultia.co</Link>
+                                        <Link href="#">UAE — +971 12345678</Link>
+                                        <Link href="#">Kuwait — +965 12345678</Link>
+                                        <Link href="#">Bahrain — +975 12345678</Link>
+                                        <Link href="#">Saudi Arabia — +966 12345678</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,16 +70,16 @@ export default function Footer1() {
                     </div>
                     <div className="row align-items-center copyright2">
                         <div className="col-lg-6">
-                            <p>© 2023 Consultia by fleexstudio. All Rights Reserved.</p>
+                            <p>© 2025 Amtel Group of Companies. All rights reserved.</p>
                         </div>
                         <div className="col-lg-6 text-right">
                             <div className="social social2">
                                 <ul>
-                                    <li><Link data-bs-toggle="tooltip" title="Linked in" href="#"><i className="fa-brands fa-linkedin-in" /></Link>
+                                    <li><Link data-bs-toggle="tooltip" title="LinkedIn" href="#"><i className="fa-brands fa-linkedin-in" /></Link>
                                     </li>
-                                    <li><Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
                                     <li><Link data-bs-toggle="tooltip" title="Instagram" href="#"><i className="fa-brands fa-instagram" /></Link></li>
-                                    <li><Link data-bs-toggle="tooltip" title="TikTok" href="#"><i className="fa-brands fa-tiktok" /></Link></li>
+                                    <li><Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
+                                    <li><Link data-bs-toggle="tooltip" title="X" href="#"><i className="fa-brands fa-x-twitter" /></Link></li>
                                 </ul>
                             </div>
                         </div>

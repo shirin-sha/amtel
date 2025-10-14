@@ -1,13 +1,42 @@
-import BlogPost from '@/components/blog/BlogPost'
-import Layout from '@/components/layout/Layout'
 
-export default function Blog() {
+import Layout from "@/components/layout/Layout"
+import dynamic from 'next/dynamic'
+const BlogFilter1 = dynamic(() => import('@/components/elements/BlogFilter1'), {
+    ssr: false,
+})
+export default function Page() {
+
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
-                <div className="col-lg-4">
-                <BlogPost showItem={6} style={1} showPagination />
 
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="OUR BLOG">
+                <BlogFilter1 />
+                <div className="subscribe-4 bg12 padding-90 inner-font-1 inner-subscribe">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="heading4 white-heading inner-heading no-margin-heading">
+                                    <h2>Want updates from Amtel?</h2>
+                                    <p>
+                                        Subscribe for concise partner notes—launches, availability, and documentation updates.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-lg-5 col-md-6 offset-lg-1">
+                                <div className="sunscribe-form">
+                                    <div className="subscribe-from-wrap">
+                                        <form action="#">
+                                            <input type="email" placeholder="Email Address" />
+                                            <button type="submit" name="button">
+                                                Subscribe Now
+                                                <img src="/assets/img/icons/arrow-up-right.svg" alt="" />
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Layout>
         </>

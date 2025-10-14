@@ -43,37 +43,29 @@ const swiperOptions = {
 export default function LogoSlider2() {
     return (
         <>
-            <Swiper {...swiperOptions} className="logos logos2 owl-carousel">
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo21.png" alt="" />
+            <Swiper {...swiperOptions} className="logos owl-carousel">
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/stc-logo-purple.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo22.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/ooredoo_logo.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo23.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/zain.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo24.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/akn-logo-english.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo25.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/arab-business-machine.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo21.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/binhindi.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo22.png" alt="" />
+                <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img src="/assets/img/logo/Abp.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo23.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo24.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide className="single-logo">
-                    <img src="/assets/img/logo/logo25.png" alt="" />
-                </SwiperSlide>
+               
             </Swiper>
         </>
     )

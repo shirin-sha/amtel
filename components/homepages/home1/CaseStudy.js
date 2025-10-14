@@ -61,11 +61,8 @@ export default function CaseStudy() {
                     <div className="row">
                         <div className="col-md-4 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
-                                    Relief.</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Consultia</span> tax
-                                    is built for
-                                    small business.</h2>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Why partners choose Amtel</small>
+                                <h2 data-aos="fade-up" data-aos-duration={800}>Consistent Results,<br />Project After Project.</h2>
                             </div>
                         </div>
                     </div>
@@ -77,8 +74,9 @@ export default function CaseStudy() {
                                         <img src="/assets/img/case-study/casestudy1.jpg" alt="" />
                                     </div>
                                     <div className="case-study-content">
-                                        <h4>Operational Excellence</h4>
-                                        <p>Making a mistake on your return can be costly. From missed deductions.</p>
+                                        <h4>Assortment Planning</h4>
+                                        <p>Model lists aligned to timelines and demand—so allocations, colours, and storage
+                                            options match what stores and programs actually need.</p>
                                         <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                     </div>
                                 </SwiperSlide>
@@ -87,8 +85,9 @@ export default function CaseStudy() {
                                         <img src="/assets/img/case-study/casestudy2.jpg" alt="" />
                                     </div>
                                     <div className="case-study-content">
-                                        <h4>Analytics Consulting</h4>
-                                        <p>Making a mistake on your return can be costly. From missed deductions.</p>
+                                        <h4>Launch Readiness</h4>
+                                        <p>Stock, documents, and messaging confirmed before day one. Clean handovers keep
+                                            promotions and store rollouts smooth and on schedule.</p>
                                         <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                     </div>
                                 </SwiperSlide>
@@ -97,18 +96,9 @@ export default function CaseStudy() {
                                         <img src="/assets/img/case-study/casestudy3.jpg" alt="" />
                                     </div>
                                     <div className="case-study-content">
-                                        <h4>Analytics Strategy</h4>
-                                        <p>Making a mistake on your return can be costly. From missed deductions.</p>
-                                        <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className="single-case-study">
-                                    <div className="case-study-img">
-                                        <img src="/assets/img/case-study/casestudy3.jpg" alt="" />
-                                    </div>
-                                    <div className="case-study-content">
-                                        <h4>Analytics Strategy</h4>
-                                        <p>Making a mistake on your return can be costly. From missed deductions.</p>
+                                        <h4>Continuity & Refill</h4>
+                                        <p>Steady availability for core lines with early updates and sensible alternates—so shelves
+                                            stay balanced and programs don’t stall.</p>
                                         <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                     </div>
                                 </SwiperSlide>

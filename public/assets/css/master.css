@@ -1533,14 +1533,14 @@ img {
 .title.title2 h1 {
   font-weight: 700;
   color: #09120E;
-  font-size: 65px;
+  font-size: 54px;
   line-height: 75px;
   margin-bottom: 10px;
   font-family: "satoshi";
 }
 @media (max-width: 767px) {
   .title.title2 h1 {
-    font-size: 34px;
+    font-size: 31px;
     line-height: 46px;
   }
 }
@@ -1838,7 +1838,7 @@ img {
 }
 .heading2 h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 50px;
   letter-spacing: -1px;
   color: #09120E;
@@ -1846,7 +1846,7 @@ img {
 }
 @media (max-width: 767px) {
   .heading2 h2 {
-    font-size: 32px;
+    font-size: 22px;
     line-height: 42px;
   }
 }
@@ -2104,7 +2104,7 @@ img {
 .heading4 p {
   font-family: "satoshi";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 32px;
   color: #515154;
   margin-top: 20px;
@@ -5615,7 +5615,7 @@ img.circle-text {
 .inner-title h2 {
   font-family: "satoshi";
   font-weight: 700;
-  font-size: 60px;
+  font-size: 56px;
   line-height: 65px;
   letter-spacing: -1px;
   color: #161540;

@@ -12,15 +12,12 @@ export default function Pricing() {
                     <div className="row">
                         <div className="col-md-5 m-auto">
                             <div className="heading2 text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
-                                    Relief.</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">We</span> offer best
-                                    cost
-                                    effective tax consultation solution. </h2>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Why Amtel is a safe choice</small>
+                                <h2 data-aos="fade-up" data-aos-duration={800}>Credentials & Coverage<br />You Can Trust.</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-12 text-center">
                             <div className="plan-toggle-wrap" data-aos="fade-up" data-aos-duration={1000}>
                                 <div className="toggle-inner">
@@ -35,7 +32,7 @@ export default function Pricing() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="space50" />
                     <div className="tab-content">
                         {isToggled ?
@@ -45,23 +42,18 @@ export default function Pricing() {
                                         <div className="col-lg-4">
                                             <div className="single-price active">
                                                 <div className="price-heading">
-                                                    <p>Basic</p>
-                                                    <h5>Create interactive forms that connect to your workflow.</h5>
-                                                    <h3>$29/mo</h3>
-                                                    <h6>Billed Yearly</h6>
+                                                    <p>Compliance & Authenticity</p>
+                                                    <h5>We protect partner brands and customers.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn active">Get a Free Consultaion</Link>
-                                                    <h4>Everything you get with Basic</h4>
+                                                    <Link href="#" className="price-btn active">Get a Free Consultation</Link>
+                                                    <h4>What you can expect</h4>
                                                     <ul>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                            Segmentation</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                            Seats  Role Access</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                            Content</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Authorized channels only (no grey stock)</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>IMEI/serial capture and verification</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Destination-compliant invoices & packing lists</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Origin papers and HS codes aligned</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Ethical sourcing and audit trail</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -69,23 +61,18 @@ export default function Pricing() {
                                         <div className="col-lg-4">
                                             <div className="single-price">
                                                 <div className="price-heading">
-                                                    <p>Plus</p>
-                                                    <h5>Make your forms more beautiful and on-brand  analyze.</h5>
-                                                    <h3>$199/mo</h3>
-                                                    <h6>Billed Yearly</h6>
+                                                    <p>Regional Presence & Export</p>
+                                                    <h5>Close to markets, built for scale.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn">Get a Free Consultaion</Link>
-                                                    <h4>Everything in Basic, Plus</h4>
+                                                    <Link href="#" className="price-btn">Speak to Coordination</Link>
+                                                    <h4>Coverage and operations</h4>
                                                     <ul>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                            Segmentation</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                            Seats  Role Access</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                            Content</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Entities: UAE, Kuwait, Bahrain, Saudi Arabia</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Exports to MEA, Asia, Europe, USA</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Central Middle East warehousing</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Courier handoff: Aramex | FedEx</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Clear ETAs and tracking</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -93,23 +80,18 @@ export default function Pricing() {
                                         <div className="col-lg-4">
                                             <div className="single-price">
                                                 <div className="price-heading">
-                                                    <p>Business</p>
-                                                    <h5>Make your forms more beautiful and on-brand  analyze.</h5>
-                                                    <h3>$399/mo</h3>
-                                                    <h6>Billed Yearly</h6>
+                                                    <p>Category & Brand Coverage</p>
+                                                    <h5>Multi-brand portfolio with disciplined execution.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn">Get a Free Consultaion</Link>
-                                                    <h4>Everything in Plus, Business</h4>
+                                                    <Link href="#" className="price-btn">View Company Profile</Link>
+                                                    <h4>Lines and capabilities</h4>
                                                     <ul>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                            Segmentation</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                            Seats  Role Access</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                            Content</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Apple (Kuwait) — Exclusive & Authorized</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Samsung • Honor • Redmi • Tecno • Sony</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Mobiles, tablets/computing, wearables, gaming</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>PlayStation • Nintendo • Xbox accessories</li>
+                                                        <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>40+ team members, multilingual support</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -122,23 +104,18 @@ export default function Pricing() {
                                     <div className="col-lg-4" data-aos="fade-up" data-aos-duration={800}>
                                         <div className="single-price">
                                             <div className="price-heading">
-                                                <p>Basic</p>
-                                                <h5>Create interactive forms that connect to your workflow.</h5>
-                                                <h3>$19/mo</h3>
-                                                <h6>Billed Monthly</h6>
+                                                <p>Compliance & Authenticity</p>
+                                                <h5>We protect partner brands and customers.</h5>
                                             </div>
                                             <div className="price-body">
-                                                <Link href="#" className="price-btn">Get a Free Consultaion</Link>
-                                                <h4>Everything you get with Basic</h4>
+                                                <Link href="#" className="price-btn">Get a Free Consultation</Link>
+                                                <h4>What you can expect</h4>
                                                 <ul>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                        Segmentation</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                        Seats  Role Access</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                        Content</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Authorized channels only (no grey stock)</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>IMEI/serial capture and verification</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Destination-compliant invoices & packing lists</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Origin papers and HS codes aligned</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Ethical sourcing and audit trail</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -146,23 +123,18 @@ export default function Pricing() {
                                     <div className="col-lg-4" data-aos="fade-up" data-aos-duration={1000}>
                                         <div className="single-price active">
                                             <div className="price-heading">
-                                                <p>Plus</p>
-                                                <h5>Make your forms more beautiful and on-brand  analyze.</h5>
-                                                <h3>$49/mo</h3>
-                                                <h6>Billed Monthly</h6>
+                                                <p>Regional Presence & Export</p>
+                                                <h5>Close to markets, built for scale.</h5>
                                             </div>
                                             <div className="price-body">
-                                                <Link href="#" className="price-btn active">Get a Free Consultaion</Link>
-                                                <h4>Everything in Basic, Plus</h4>
+                                                <Link href="#" className="price-btn active">Speak to Coordination</Link>
+                                                <h4>Coverage and operations</h4>
                                                 <ul>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                        Segmentation</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                        Seats  Role Access</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                        Content</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Entities: UAE, Kuwait, Bahrain, Saudi Arabia</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Exports to MEA, Asia, Europe, USA</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Central Middle East warehousing</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Courier handoff: Aramex | FedEx</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Clear ETAs and tracking</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -170,23 +142,18 @@ export default function Pricing() {
                                     <div className="col-lg-4" data-aos="fade-up" data-aos-duration={1200}>
                                         <div className="single-price">
                                             <div className="price-heading">
-                                                <p>Business</p>
-                                                <h5>Make your forms more beautiful and on-brand  analyze.</h5>
-                                                <h3>$99/mo</h3>
-                                                <h6>Billed Monthly</h6>
+                                                <p>Category & Brand Coverage</p>
+                                                <h5>Multi-brand portfolio with disciplined execution.</h5>
                                             </div>
                                             <div className="price-body">
-                                                <Link href="#" className="price-btn">Get a Free Consultaion</Link>
-                                                <h4>Everything in Plus, Business</h4>
+                                                <Link href="#" className="price-btn">View Company Profile</Link>
+                                                <h4>Lines and capabilities</h4>
                                                 <ul>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Advanced
-                                                        Segmentation</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Comparative Reporting</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Unlimited
-                                                        Seats  Role Access</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Multivaritive Testing</li>
-                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Dynamic
-                                                        Content</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Apple (Kuwait) — Exclusive & Authorized</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Samsung • Honor • Redmi • Tecno • Sony</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Mobiles, tablets/computing, wearables, gaming</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>PlayStation • Nintendo • Xbox accessories</li>
+                                                    <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>40+ team members, multilingual support</li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -11,21 +11,14 @@ export default function About2() {
                         <div className="col-lg-6 d-none d-lg-block">
                             <div className="mr50">
                                 <div className="heading2 no-margin-heading">
-                                    <small data-aos="fade-right" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
-                                        Relief.</small>
-                                    <h2 data-aos="fade-right" data-aos-duration={800}>We Handle The Most Tedious Bookkeeping
-                                        Tasks of Your
-                                        Business Operations.</h2>
-                                    <p data-aos="fade-right" data-aos-duration={1000}>Experienced, knowledgeable professionals
-                                        in Property Tax
-                                        Consulting. Our team of Property Tax
-                                        Consultants is committed to saving you money by obtaining the lowest possible assessed
-                                        value for your
-                                        commercial or residential properties.
-                                    </p>
+                                    <small data-aos="fade-right" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Quick company overview</small>
+                                    <h2 data-aos="fade-right" data-aos-duration={800}>Our Operational Highlights<br />At A Glance.</h2>
+                                    <p data-aos="fade-right" data-aos-duration={1000}>Distributor of mobiles, tablets, wearables, and gaming since 1999. Regional entities in
+                                        the UAE, Kuwait, Bahrain, and Saudi Arabia, with export reach across MEA, Asia,
+                                        Europe, and the USA.</p>
                                     <div className="space50" />
                                     <div className="button-group" data-aos="fade-right" data-aos-duration={1200}>
-                                        <Link className="theme-btn-2" href="#">More About Us <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                        <Link className="theme-btn-2" href="#">More About Amtel →</Link>
                                     </div>
                                 </div>
                             </div>
@@ -38,15 +31,15 @@ export default function About2() {
                                             <div className="conter-icon">
                                                 <img src="/assets/img/icons/counter21.png" alt="" />
                                             </div>
-                                            <h2><CounterUp count={645}/>+</h2>
-                                            <p>Meetings So For</p>
+                                            <h2><CounterUp count={26}/>+</h2>
+                                            <p>Years Operating</p>
                                         </div>
                                         <div className="single-counter" data-aos="zoom-out" data-aos-duration={800}>
                                             <div className="conter-icon">
                                                 <img src="/assets/img/icons/counter22.png" alt="" />
                                             </div>
-                                            <h2><CounterUp count={34}/>+</h2>
-                                            <p>Meetings So For</p>
+                                            <h2><CounterUp count={4}/></h2>
+                                            <p>GCC Entities</p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
@@ -54,15 +47,15 @@ export default function About2() {
                                             <div className="conter-icon">
                                                 <img src="/assets/img/icons/counter23.png" alt="" />
                                             </div>
-                                            <h2><CounterUp count={562}/>+</h2>
-                                            <p>Meetings So For</p>
+                                            <h2><CounterUp count={40}/>+</h2>
+                                            <p>Employees</p>
                                         </div>
                                         <div className="single-counter" data-aos="zoom-out" data-aos-duration={1200}>
                                             <div className="conter-icon">
                                                 <img src="/assets/img/icons/counter24.png" alt="" />
                                             </div>
-                                            <h2><CounterUp count={90}/>%</h2>
-                                            <p>Meetings So For</p>
+                                            <h2><CounterUp count={0}/>%</h2>
+                                            <p>Counterfeit Tolerance</p>
                                         </div>
                                     </div>
                                 </div>
@@ -77,18 +70,13 @@ export default function About2() {
                         <div className="col-lg-6 d-lg-none">
                             <div className="mr50">
                                 <div className="heading2 no-margin-heading">
-                                    <small className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your
-                                        Tax
-                                        Relief.</small>
-                                    <h2>We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-                                    <p>Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property
-                                        Tax
-                                        Consultants is committed to saving you money by obtaining the lowest possible assessed
-                                        value for your
-                                        commercial or residential properties.
-                                    </p>
+                                    <small className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Quick company overview</small>
+                                    <h2>Our Operational Highlights<br />At A Glance.</h2>
+                                    <p>Distributor of mobiles, tablets, wearables, and gaming since 1999. Regional entities in
+                                        the UAE, Kuwait, Bahrain, and Saudi Arabia, with export reach across MEA, Asia,
+                                        Europe, and the USA.</p>
                                     <div className="space50" />
-                                    <Link className="theme-btn-2" href="#">More About Us <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                    <Link className="theme-btn-2" href="#">More About Amtel →</Link>
                                 </div>
                             </div>
                         </div>

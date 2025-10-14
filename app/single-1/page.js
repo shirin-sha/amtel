@@ -17,86 +17,59 @@ export default function Page() {
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
                                         <ul className="blog-tags">
-                                            <li><Link href="#">Lifestyle</Link></li>
+                                            <li><Link href="#">Apple</Link></li>
                                         </ul>
                                         <h2>
-                                            Business opportunities are like buses, there's always one
-                                            coming.
+                                            Apple Deployments Done Right: The Non-Negotiables
                                         </h2>
                                         <div className="blog-date-time">
                                             <ul className="blog-date">
-                                                <li><Link href="#">01.JUL.2022</Link></li>
+                                                <li><Link href="#">15.JAN.2024</Link></li>
                                             </ul>
                                             <ul className="blog-time">
-                                                <li><Link href="#">3 MIN READ</Link></li>
+                                                <li><Link href="#">8 MIN READ</Link></li>
                                             </ul>
                                         </div>
                                         <p>
-                                            By engaging with employees virtually, companies can stay
-                                            connected and informed with their people, no matter where they
-                                            are. This can help improve morale and keep employees feeling
-                                            like they're part of the team, even if they're not in the same
-                                            room.
+                                            Apple deployments don't start when cartons arrive—they begin at scoping. The first non-negotiable is approved, region-correct SKUs: confirm market codes, capacities, colorways, and warranty applicability before a PO exists. Lock the assortment early so merchandising, finance, and operations are planning against the same list.
                                         </p>
                                         <p>
-                                            It is important for leaders to pause and brainstorm ideas to
-                                            help employees rejuvenate. Companies often believe that devoting
-                                            work hours to team socialization is a waste of time. Let us
-                                            consider a situation. Imagine a book with no spaces. Yes, all
-                                            the words put together with the aim to make sense and deliver
-                                            knowledge but without spaces. Will it be of any use? What value
-                                            can it provide one it? All it can lead to is stress and
-                                            confusion. Hence, it is important to take breaks. It is
-                                            important to declutter and detox. It is important to clear your
-                                            head and reset. We bring to you our top 5 game suggestions to
-                                            engage with your team today!
+                                            Next is program-safe messaging. Headlines, disclaimers, and any in-store or digital copy must align with Apple channel guidance and local regulations; resolving this up front prevents reprints or last-minute creative swaps. Third, set a calendar commitment with explicit milestones—PO issuance, allocation confirmation, document release, customs pre-clearance, inbound scheduling, and store readiness. The aim is to make timing visible and shareable across teams.
                                         </p>
-                                        <h3>Five things all HRs think when they think of diversity.</h3>
                                         <p>
-                                            It is important for leaders to pause and brainstorm ideas to
-                                            help employees rejuvenate. Companies often believe that devoting
-                                            work hours to team socialization is a waste of time. Let us
-                                            consider a situation. Imagine a book with no spaces. Yes, all
-                                            the words put together with the aim to make sense and deliver
-                                            knowledge but without spaces. Will it be of any use? What value
-                                            can it provide one it? All it can lead to is stress and
-                                            confusion. Hence, it is important to take breaks. It is
-                                            important to declutter and detox. It is important to clear your
-                                            head and reset. We bring to you our top 5 game suggestions to
-                                            engage with your team today!
+                                            Finally, assign a single point of coordination to reduce diffusion of responsibility. With one owner curating status and unblocking decisions, escalations shrink, and the plan becomes a sequence, not a scramble. This pre-PO discipline creates a deployment that is calm, brand-safe, and predictable—before the first device moves.
+                                        </p>
+                                        <h3>Documentation, Device Integrity, and Audit-Ready Handovers</h3>
+                                        <p>
+                                            If planning is the spine, documentation is the connective tissue—without it, even perfect allocations stall. Start with audit-ready paperwork prepared before dispatch and shared digitally: a commercial invoice with HS codes and line-level detail, a packing list mapping cartons and pallets (with weights and dimensions), certificate of origin where required, and any destination letters or permits.
+                                        </p>
+                                        <p>
+                                            For many programs, serial/IMEI validation is non-negotiable: maintain an export of identifiers both per carton and in aggregate, matched to the approved model list. This enables traceability from warehouse release to store handover, accelerates DOA/RMA processing, and supports store-specific planograms.
                                         </p>
                                         <div className="single-blog-quote">
                                             <h4>
-                                                “ Success is not final; failure is not fatal: it is the
-                                                courage to continue that counts.”
+                                                "When assortments are correct, documents are complete, and handovers are calm, each new wave—flagship iPhone, strategic iPad refresh, or Mac deployment—arrives on schedule and sells through cleanly."
                                             </h4>
-                                            <Link href="#">Winston Churchill. </Link>
+                                            <Link href="#">Amtel Apple Programs Playbook</Link>
                                         </div>
-                                        <h3>Five things all HRs think when they think of diversity.</h3>
                                         <p>
-                                            It is important for leaders to pause and brainstorm ideas to
-                                            help employees rejuvenate. Companies often believe that devoting
-                                            work hours to team socialization is a waste of time. Let us
-                                            consider a situation. Imagine a book with no spaces. Yes, all
-                                            the words put together with the aim to make sense and deliver
-                                            knowledge but without spaces.
+                                            Physical presentation matters: apply channel-approved labels only where permitted, avoid unapproved stickers on retail boxes, and use tamper-evident but non-destructive security seals. Accessory pairing should be intentional—cases, keyboards, power, and audio selected from approved SKUs and matched to device and territory specifics. On intake, the receiving team should find documents that reconcile exactly to physical counts, with serials that match manifests and packaging that reflects Apple's quality bar. The result is faster clearance, quicker merchandising, and fewer back-room firefights.
                                         </p>
                                         <div className="single-blog-img">
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
-                                        <h3>Five things all HRs think when they think of diversity.</h3>
+                                        <h3>Execution Rhythm, Reporting, and Long-Term Governance</h3>
                                         <p>
-                                            It is important for leaders to pause and brainstorm ideas to
-                                            help employees rejuvenate. Companies often believe that devoting
-                                            work hours to team socialization is a waste of time. Let us
-                                            consider a situation. Imagine a book with no spaces. Yes, all
-                                            the words put together with the aim to make sense and deliver
-                                            knowledge but without spaces. Will it be of any use? What value
-                                            can it provide one it? All it can lead to is stress and
-                                            confusion. Hence, it is important to take breaks. It is
-                                            important to declutter and detox. It is important to clear your
-                                            head and reset. We bring to you our top 5 game suggestions to
-                                            engage with your team today!
+                                            Apple programs succeed through rhythm: launch → replenish → seasonal uplift, repeated cleanly. Establish a milestone cadence everyone can see (PO confirmed → allocation locked → docs released → cleared to load → customs pre-approved → inbound booked → handover signed) and turn each step into a dated, shareable update.
+                                        </p>
+                                        <p>
+                                            Run a variance log capturing schedule slips, quantity deltas, labeling exceptions, or creative edits—paired with corrective actions and owners—so learning compounds instead of repeating. For replenishment, avoid ad-hoc chasing; commit to rolling allocations with predictable ETAs that retail and operator teams can build promotions and staffing around.
+                                        </p>
+                                        <p>
+                                            Pre-agree exception playbooks for DOA handling, serial mismatches, carton damage, and lost-in-transit cases, including evidence requirements, turnaround targets, and advance-replacement paths where policies allow. Finally, enforce data hygiene: archive every invoice, packing list, serial export, approval, and handover note in a shared repository keyed to shipment reference; reconcile "planned vs. landed"; and convert findings into checklist updates.
+                                        </p>
+                                        <p>
+                                            Over time, governance turns compliance from constraint into advantage—fewer escalations, steadier store readiness, and launches that simply work. That reliability is not an accident; it is the outcome of protecting the non-negotiables on every single order.
                                         </p>
                                         <div className="theme-border" />
                                         <div className="row align-items-center">
@@ -104,9 +77,9 @@ export default function Page() {
                                                 <div className="tags">
                                                     <ul>
                                                         <li>TAGS:</li>
-                                                        <li><Link href="#">Healthcare</Link></li>
-                                                        <li><Link href="#">Consult</Link></li>
-                                                        <li><Link href="#">Exclusive</Link></li>
+                                                        <li><Link href="#">Apple</Link></li>
+                                                        <li><Link href="#">Deployment</Link></li>
+                                                        <li><Link href="#">Compliance</Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -222,12 +195,9 @@ export default function Page() {
                                             <div className="about-author">
                                                 <img src="/assets/img/blog/comment.png" alt="" />
                                             </div>
-                                            <h4>Winston Churchill.</h4>
+                                            <h4>Amtel Operations Team</h4>
                                             <p>
-                                                When it comes to business, listen to Henry David Thoreau:
-                                                things usually don’t happen overnight – instead, to find
-                                                success takes a lot of time, effort, and courage. Opus
-                                                includes everything you need to build a beautiful website.
+                                                Our operations team has been managing Apple deployments across the GCC since 1999. We specialize in brand-safe rollouts, compliant documentation, and predictable handovers that keep launches on schedule and partners calm.
                                             </p>
                                             <div className="social social3 text-center">
                                                 <ul>
@@ -247,13 +217,13 @@ export default function Page() {
                                             </div>
                                         </div>
                                         <div className="single-widget recent-posts">
-                                            <h3>Recent Posts</h3>
+                                            <h3>Recent Articles</h3>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <Link href="/single-2">From PO to Handover: How to Keep Device Supply Calm</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="#">12.JAN.2024</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -263,10 +233,10 @@ export default function Page() {
                                             </div>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Stop setting diversity goals Start meeting them.</Link>
+                                                    <Link href="/single-3">Building Program-Ready Kits for Education and Enterprise</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="#">10.JAN.2024</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -276,10 +246,10 @@ export default function Page() {
                                             </div>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <Link href="/single-4">Cross-Border Without Friction: Documents That Clear Fast</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="#">08.JAN.2024</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -287,55 +257,30 @@ export default function Page() {
                                                     <img src="/assets/img/blog/recent3.png" alt="" />
                                                 </div>
                                             </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="#">Celebrate Black History Month By Donating.</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/blog/recent4.png" alt="" />
-                                                </div>
-                                            </div>
                                         </div>
                                         <div className="single-widget categories">
-                                            <h3>Categories</h3>
+                                            <h3>Amtel Services</h3>
                                             <ul className="category-list">
                                                 <li>
-                                                    <Link className="active" href="#">Lifestyle
+                                                    <Link href="/single-service-1">Mobile Distribution
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Stories
+                                                    <Link href="/single-service-2">Apple Products (Kuwait Authorized)
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Updates
+                                                    <Link href="/single-service-3">Tablets, Wearables & Other Electronics
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Development
+                                                    <Link href="/single-service-4">Gaming & Accessories
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Marketing
+                                                    <Link href="/single-service-5">Worldwide Exporting
                                                         <span><i className="fa-solid fa-angle-right" /></span></Link>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div className="single-widget tags-widget">
-                                            <h3>Tags</h3>
-                                            <ul className="tags-list">
-                                                <li><Link href="#">Healthcare</Link></li>
-                                                <li><Link href="#">Consult</Link></li>
-                                                <li><Link href="#">Cahless</Link></li>
-                                                <li><Link href="#">Cyberattacks</Link></li>
-                                                <li><Link href="#">Meeting</Link></li>
-                                                <li><Link href="#">Leadership</Link></li>
-                                                <li><Link href="#">Health Insurace</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -352,7 +297,7 @@ export default function Page() {
                                     <div className="heading2 text-center">
                                         <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our More
                                             Blogs</small>
-                                        <h2>Our team of financial professionals.</h2>
+                                        <h2>More insights from Amtel operations.</h2>
                                     </div>
                                 </div>
                             </div>
@@ -363,14 +308,13 @@ export default function Page() {
                                             <Link href="/single-1"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
-                                            <li><Link href="#">Lifestyle</Link></li>
+                                            <li><Link href="#">Operations</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">"Anyone can be a refugee": Resisting racism in Neukölln.</Link>
+                                            <Link href="/single-1">From PO to Handover: How to Keep Device Supply Calm</Link>
                                         </h3>
                                         <p>
-                                            In the past 90 days, the world has a serious escalation in
-                                            cyberattacks.
+                                            The essential milestones—allocation, documents, customs, and handover—and how a single operating playbook reduces exceptions and last-minute escalations.
                                         </p>
                                     </div>
                                 </div>
@@ -380,14 +324,13 @@ export default function Page() {
                                             <Link href="/single-1"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
-                                            <li><Link href="#">Story</Link></li>
+                                            <li><Link href="#">Devices</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">Best Practices for Employee Recognition Programs</Link>
+                                            <Link href="/single-1">Building Program-Ready Kits for Education and Enterprise</Link>
                                         </h3>
                                         <p>
-                                            In the past 90 days, the world has a serious escalation in
-                                            cyberattacks.
+                                            Selecting tablets, wearables, and accessories that actually fit use cases—plus pairing, labeling, and replenishment tactics that keep deployments on schedule.
                                         </p>
                                     </div>
                                 </div>
@@ -397,14 +340,13 @@ export default function Page() {
                                             <Link href="/single-1"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
-                                            <li><Link href="#">Design</Link></li>
+                                            <li><Link href="#">Export</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">Five things all HRs think when they think of diversity.</Link>
+                                            <Link href="/single-1">Cross-Border Without Friction: Documents That Clear Fast</Link>
                                         </h3>
                                         <p>
-                                            In the past 90 days, the world has a serious escalation in
-                                            cyberattacks.
+                                            HS codes, COO, packing lists, and IMEI files—how to prepare destination-ready documents so intakes, audits, and transfers move smoothly across regions.
                                         </p>
                                     </div>
                                 </div>
@@ -418,10 +360,9 @@ export default function Page() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="heading4 white-heading inner-heading no-margin-heading">
-                                        <h2>Want to join our team?</h2>
+                                        <h2>Want updates from Amtel?</h2>
                                         <p>
-                                            We are always looking for talented people, We here to help you
-                                            to open your bright future.
+                                            Subscribe for concise partner notes—launches, availability, and documentation updates.
                                         </p>
                                     </div>
                                 </div>

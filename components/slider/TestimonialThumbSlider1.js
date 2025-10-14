@@ -44,22 +44,14 @@ const TestimonialThumbSlider1 = () => {
                     ref={(slider) => setSlider2(slider)}
                     className="testimonial-nav ">
                     <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author1.jpg" alt="" />
+                        <img src="/assets/img/testimonial/author1.jpg" alt="Procurement Lead" />
                     </div>
                     <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author2.jpg" alt="" />
+                        <img src="/assets/img/testimonial/author2.jpg" alt="Category Manager" />
                     </div>
+                    
                     <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author3.jpg" alt="" />
-                    </div>
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author4.jpg" alt="" />
-                    </div>
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author5.jpg" alt="" />
-                    </div>
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author3.jpg" alt="" />
+                        <img src="/assets/img/testimonial/author3.jpg" alt="Operations Director" />
                     </div>
                 </Slider>
                 <Slider
@@ -68,49 +60,27 @@ const TestimonialThumbSlider1 = () => {
                     ref={(slider) => setSlider1(slider)}
                     className="slider-testimonial">
                     <div className="single-testimonial">
-                        <h5>“If your appetite is whetted, check out which tour might take your fancy, fill out
-                            the contact form
-                            or send an email so we can make an appointment. Tours are privately organised and
-                            tailor-made to suit
-                            most tastes.”</h5>
+                        <h5>“Confirmations arrived fast, documents were complete, and the rollout stayed exactly
+                            on schedule. Coordination was steady and professional from first brief to delivery.”</h5>
                         <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
+                            <Link href="#">Procurement Lead</Link>
+                            <p>National Telecom (KSA)</p>
                         </div>
                     </div>
                     <div className="single-testimonial">
-                        <h5>“The graphic and typographic operators know this well, in reality all the professions dealing with the universe of communication have a stable relationship with these words, but what is it? Lorem ipsum is a dummy text without any sense. ”</h5>
+                        <h5>“Amtel aligned assortments and serial lists early, so our promotions launched cleanly
+                            with no last-minute changes. Communication was clear, concise, and timely.”</h5>
                         <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
+                            <Link href="#">Category Manager</Link>
+                            <p>Major Retail Group (Kuwait)</p>
                         </div>
                     </div>
                     <div className="single-testimonial">
-                        <h5>“Lorem ipsum contains the typefaces more in use, an aspect that allows you to have an overview of the rendering of the text in terms of font choice and font size . ”</h5>
+                        <h5>“Cross-border paperwork and courier handoffs were handled flawlessly. Tracking,
+                            updates, and issue flags were consistent—our team could plan with confidence.”</h5>
                         <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
-                        </div>
-                    </div>
-                    <div className="single-testimonial">
-                        <h5>“When referring to Lorem ipsum, different expressions are used, namely fill text , fictitious text , blind text or placeholder text : in short, its meaning can also be zero”</h5>
-                        <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
-                        </div>
-                    </div>
-                    <div className="single-testimonial">
-                        <h5>“Filling text generation tool, in addition to customizing the text with HTML elements, you have the possibility to create a new one starting directly from your text! ”</h5>
-                        <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
-                        </div>
-                    </div>
-                    <div className="single-testimonial">
-                        <h5>“The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim of occupying the spaces of a website, an advertising product or an editorial production whose final text is not yet ready. ”</h5>
-                        <div className="author">
-                            <Link href="#">Leslie Alexander</Link>
-                            <p>CEO, Business Administ</p>
+                            <Link href="#">Operations Director</Link>
+                            <p>Regional Distributor (UAE)</p>
                         </div>
                     </div>
                 </Slider>

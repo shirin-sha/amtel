@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="OUR SERVICES">
                 <div>
                     <div className="section-padding bg-28">
                         <div className="container">
@@ -14,122 +14,64 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-8">
                                     <div className="lg-mr-15">
                                         <div className="row">
+                                        
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <img src="/assets/img/service/service-1.svg" alt="" />
+                                                        <Link href="/single-service-2"><img src="/assets/img/service/service-2.svg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
-                                                        <h3 className="font-f-3">Business Strategy</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                                        <h3 className="font-f-3"><Link href="/single-service-2">Apple Products (Kuwait Authorized Reseller)</Link></h3>
+                                                        <p className="font-f-3">Apple Authorized in Kuwait for iPhone, iPad, Mac, Watch—compliant messaging, genuine devices, coordinated retail and operator execution.</p>
+                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <img src="/assets/img/service/service-2.svg" alt="" />
+                                                        <Link href="/single-service-3"><img src="/assets/img/service/service-3.svg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
-                                                        <h3 className="font-f-3">Technology Strategy</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <img src="/assets/img/service/service-3.svg" alt="" />
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3">Product Strategy</h3>
-                                                        <p className="font-f-3">Making a mistake on your return can be costly. From missed deductions, or worse,
-                                                            the dreaded IRS audit.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                                        <h3 className="font-f-3"><Link href="/single-service-3">Tablets, Wearables & Other Electronics</Link></h3>
+                                                        <p className="font-f-3">iPad, MacBook, tablet lines, and Apple Watch with essentials—education, enterprise, retail programs kept replenishment-simple.</p>
+                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className=" col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <img src="/assets/img/service/service-4.svg" alt="" />
+                                                        <Link href="/single-service-4"><img src="/assets/img/service/service-4.svg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
-                                                        <h3 className="font-f-3">Market Research</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                                        <h3 className="font-f-3"><Link href="/single-service-4">Gaming & Accessories</Link></h3>
+                                                        <p className="font-f-3">PlayStation, Nintendo, Xbox consoles, controllers, and peripherals—category planning, steady continuity, smooth peaks, on-time downstream launches.</p>
+                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <img src="/assets/img/service/service-5.svg" alt="" />
+                                                        <Link href="/single-service-5"><img src="/assets/img/service/service-5.svg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
-                                                        <h3 className="font-f-3">Product Management</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
+                                                        <h3 className="font-f-3"><Link href="/single-service-5">Worldwide Exporting</Link></h3>
+                                                        <p className="font-f-3">Global wholesale exporting of mobiles, tablets, wearables—allocated orders, compliant paperwork, reliable logistics, responsive support for partners.</p>
+                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <img src="/assets/img/service/service-6.svg" alt="" />
+                                                        <Link href="/single-service-1"><img src="/assets/img/service/service-1.svg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
-                                                        <h3 className="font-f-3">Marketing  Advertising</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <img src="/assets/img/service/service-7.svg" alt="" />
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3">Marketing  Advertising</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <img src="/assets/img/service/service-9.svg" alt="" />
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3">Go-To-Market Strategy</h3>
-                                                        <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
-                                                            experience has been our portfolio.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="#">Get Basic Monthly</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="space30" />
-                                            <div className="row">
-                                                <div className="col-12 m-auto">
-                                                    <div className="theme-pagination text-center">
-                                                        <ul>
-                                                            <li><Link href="#"><i className="fa-solid fa-angle-left" /></Link></li>
-                                                            <li><Link className="active" href="#">01</Link></li>
-                                                            <li><Link href="#">02</Link></li>
-                                                            <li>...</li>
-                                                            <li><Link href="#">99</Link></li>
-                                                            <li><Link href="#"><i className="fa-solid fa-angle-right" /></Link></li>
-                                                        </ul>
+                                                        <h3 className="font-f-3"><Link href="/single-service-1">Mobile Distribution</Link></h3>
+                                                        <p className="font-f-3">Samsung, Honor, Redmi, Tecno, Sony—verified models, clear specs, serial validation, planned availability and predictable assortments.</p>
+                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -148,13 +90,13 @@ export default function Page() {
                                             </div>
                                         </div>
                                         <div className="single-widget recent-posts">
-                                            <h3>Newest Services</h3>
+                                            <h3>Recent Articles</h3>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <Link href="/blog/apple-products-kuwait-market">Apple Products in Kuwait: Authorized Reseller Benefits</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="/blog/apple-products-kuwait-market">15/01/24</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -164,10 +106,10 @@ export default function Page() {
                                             </div>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Stop setting diversity goals Start meeting them.</Link>
+                                                    <Link href="/blog/gaming-accessories-trends-2024">Gaming Accessories Trends: What's New in 2024</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="/blog/gaming-accessories-trends-2024">12/01/24</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -177,10 +119,10 @@ export default function Page() {
                                             </div>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <Link href="/blog/worldwide-exporting-guide">Complete Guide to Worldwide Electronics Exporting</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="/blog/worldwide-exporting-guide">10/01/24</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -190,10 +132,10 @@ export default function Page() {
                                             </div>
                                             <div className="recent-post">
                                                 <div className="recent-post-content">
-                                                    <Link href="#">Celebrate Black History Month By Donating.</Link>
+                                                    <Link href="/blog/mobile-distribution-best-practices">Mobile Distribution Best Practices for Retailers</Link>
                                                     <div className="blog-date-time">
                                                         <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                            <li><Link href="/blog/mobile-distribution-best-practices">08/01/24</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -203,16 +145,16 @@ export default function Page() {
                                             </div>
                                         </div>
                                         <div className="single-widget categories">
-                                            <h3>Categories</h3>
+                                            <h3>Amtel Services</h3>
                                             <ul className="category-list">
-                                                <li><Link className="active" href="#">Lifestyle <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="#">Stories <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="#">Updates <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="#">Development <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="#">Marketing <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                <li><Link href="/single-service-2">Apple Products (Kuwait Authorized Reseller) <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                <li><Link href="/single-service-3">Tablets, Wearables & Other Electronics <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                <li><Link href="/single-service-4">Gaming & Accessories <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                <li><Link href="/single-service-5">Worldwide Exporting <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                <li><Link href="/single-service-1">Mobile Distribution <span><i className="fa-solid fa-angle-right" /></span></Link></li>
                                             </ul>
                                         </div>
-                                        <div className="single-widget tags-widget">
+                                        {/* <div className="single-widget tags-widget">
                                             <h3>Tags</h3>
                                             <ul className="tags-list">
                                                 <li><Link href="#">Healthcare</Link></li>
@@ -223,7 +165,7 @@ export default function Page() {
                                                 <li><Link href="#">Leadership</Link></li>
                                                 <li><Link href="#">Health Insurace</Link></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

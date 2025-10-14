@@ -25,13 +25,13 @@ export default function Page() {
                                                     <input type="email" name="email" placeholder="Email Address" />
                                                 </div>
                                                 <div className="col-lg-6">
-                                                    <input type="text" name="service" placeholder="Service Interested In" />
+                                                    <input type="text" name="products" placeholder="Products Interested In" />
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <input type="text" name="subject" placeholder="Subject" />
                                                 </div>
                                                 <div className="col-12">
-                                                    <textarea name="message" cols={30} rows={5} placeholder="Tell Us About Your Projects" />
+                                                    <textarea name="message" cols={30} rows={5} placeholder="Tell Us About Your Project" />
                                                 </div>
                                                 <div className="col-12">
                                                     <button type="submit" className="full-btn theme-btn-11">
@@ -50,7 +50,7 @@ export default function Page() {
                                             </div>
                                             <div className="contact-box-content">
                                                 <p className="font-f-3">CALL US</p>
-                                                <Link className="font-f-3" href="/tel:+11 1111 11000">+11 1111 11000</Link>
+                                                <Link className="font-f-3" href="tel:+97140000000">+971 4 000 0000</Link>
                                             </div>
                                         </div>
                                         <div className="single-contact-box mb-30">
@@ -59,16 +59,16 @@ export default function Page() {
                                             </div>
                                             <div className="contact-box-content">
                                                 <p className="font-f-3">EMAIL US</p>
-                                                <Link className="font-f-3" href="/mailto:hello@consultia.com">hello@consultia.com</Link>
+                                                <Link className="font-f-3" href="mailto:info@amtelintnl.com">info@amtelintnl.com</Link>
                                             </div>
                                         </div>
                                         <div className="single-contact-box">
                                             <div className="contact-box-icon">
-                                                <img src="/assets/img/icons/contact-3.svg" alt="" />
+                                                <img src="/assets/img/icons/contact-1.svg" alt="" />
                                             </div>
                                             <div className="contact-box-content">
-                                                <p className="font-f-3">HEADQUARTERS</p>
-                                                <Link className="font-f-3" href="#">New York, NY 94105, United States</Link>
+                                                <p className="font-f-3">SALES & SUPPORT</p>
+                                                <Link className="font-f-3" href="tel:+965123456">+965 123 456</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -77,15 +77,14 @@ export default function Page() {
                         </div>
                     </div>
                     {/*=====Contact Form End=======*/}
-                    {/*=====Office-area end=======*/}
+                    {/*=====Office-area start=======*/}
                     <div className="office-area section-padding2 bg-13 inner-font-1 _relative">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Success in
-                                            Numbers</small>
-                                        <h2>Our Offices Around the World</h2>
+                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Success in Numbers</small>
+                                        <h2>Our Offices Across the Region</h2>
                                     </div>
                                 </div>
                             </div>
@@ -96,11 +95,12 @@ export default function Page() {
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
                                         <h3>
-                                            <Link href="#">New York Office</Link>
+                                            <Link href="#">UAE — Head Office</Link>
                                         </h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            M-04, Bin Jaffar Building,<br />
+                                            Eyal Nasser, Naif, Deira,<br />
+                                            Dubai, UAE
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -111,10 +111,11 @@ export default function Page() {
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
-                                        <h3>San Francisco Office</h3>
+                                        <h3>Kuwait</h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            Najma Complex, Office 10, 2nd Floor,
+                                            Block-1, Ali Fahad Al Duwailah St,
+                                            Farwaniya, Kuwait
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -125,10 +126,11 @@ export default function Page() {
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
-                                        <h3>Dublin Office</h3>
+                                        <h3>Bahrain</h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            Office B 570, Road 1807, Block 318,
+                                            Al Hoora, Manama,
+                                            Kingdom of Bahrain
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -139,10 +141,11 @@ export default function Page() {
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
-                                        <h3>Boston Office</h3>
+                                        <h3>Saudi Arabia</h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            SQ Business Tower 2, Office 210,<br />
+                                            Al Khozama, Al Khobar 34718,<br />
+                                            Dammam, KSA
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -153,10 +156,11 @@ export default function Page() {
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
-                                        <h3>Los Angeles Office</h3>
+                                        <h3>Hong Kong (Origins)</h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            Established 1999<br />
+                                            Corporate Registry<br />
+                                            Hong Kong SAR
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -167,10 +171,11 @@ export default function Page() {
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
                                         </div>
-                                        <h3>Nashville Office</h3>
+                                        <h3>Global Export Desk</h3>
                                         <p>
-                                            90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United
-                                            States
+                                            GCC + Asia • Europe • USA<br />
+                                            Documentation & Compliance<br />
+                                            Support
                                         </p>
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
@@ -197,77 +202,41 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="single-faq2">
-                                        <h3>What should entrepreneurs never do?</h3>
+                                        <h3>Do you sell retail or only B2B?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Amtel serves B2B programs—operators, retailers, resellers, and enterprise.
                                         </p>
                                     </div>
                                     <div className="single-faq2">
-                                        <h3>Are you too poor to start a business?</h3>
+                                        <h3>Which brands do you coordinate?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Apple (Kuwait authorized), Samsung, Honor, Redmi, Tecno, Sony, and gaming.
                                         </p>
                                     </div>
                                     <div className="single-faq2">
-                                        <h3>Do developers really code from scratch in a hackathon?</h3>
+                                        <h3>How do you verify device authenticity?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>What pieces do museums not want the public to see?</h3>
-                                        <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Serial checks, origin papers, packing lists, and destination-compliant docs.
                                         </p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="single-faq2">
-                                        <h3>What should entrepreneurs never do?</h3>
+                                        <h3>Can you manage cross-border paperwork?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Yes—commercial invoices, COO, packing lists, and customs coordination.
                                         </p>
                                     </div>
                                     <div className="single-faq2">
-                                        <h3>Are you too poor to start a business?</h3>
+                                        <h3>What is the average lead time?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Lead time depends on allocation and market. We confirm timelines at PO.
                                         </p>
                                     </div>
                                     <div className="single-faq2">
-                                        <h3>Do developers really code from scratch in a hackathon?</h3>
+                                        <h3>How do we start a partnership?</h3>
                                         <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>What pieces do museums not want the public to see?</h3>
-                                        <p>
-                                            I'm a serial entrepreneur and have started/ran/sold
-                                            approximately 20 businesses over the past 45 years.Some of my
-                                            businesses made millions, some of them broke even. But - I never
-                                            lost a dime on a single one.
+                                            Share your company details, target categories, and destinations. We'll align on scope, terms, and schedules.
                                         </p>
                                     </div>
                                 </div>
@@ -279,14 +248,12 @@ export default function Page() {
                                         <div className="heading4 inner-heading no-margin-heading">
                                             <h4 className="font-f-3 weight-700">Have more questions?</h4>
                                             <p>
-                                                If you’re a business with a large payments volume or unique
-                                                business model, reach out to discuss alternive pricing
-                                                options.
+                                                If you're a business with volume needs or a unique model, reach out—we'll suggest the most efficient, standards-led path.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="col-md-6 text-md-right">
-                                        <Link href="#" className="theme-btn-11">Get In Touch</Link>
+                                        <Link href="#contact-form" className="theme-btn-11">Get In Touch</Link>
                                     </div>
                                 </div>
                             </div>
@@ -299,10 +266,9 @@ export default function Page() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="heading4 white-heading inner-heading no-margin-heading">
-                                        <h2>Want to join our team?</h2>
+                                        <h2>Want updates from Amtel?</h2>
                                         <p>
-                                            We are always looking for talented people, We here to help you
-                                            to open your bright future.
+                                            Subscribe for concise partner notes—launches, availability, and documentation updates.
                                         </p>
                                     </div>
                                 </div>
