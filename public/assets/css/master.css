@@ -3412,11 +3412,11 @@ a.footer-logo {
 }
 
 .social.social3 ul li a {
-  color: #7977C6;
-  background: #F2F1F9;
+  color:#FF7A1A;
+  background: #FFD7BF
 }
 .social.social3 ul li a:hover {
-  background: #7977C6;
+  background:#E24A1D;
   color: #ffffff;
 }
 
@@ -3778,7 +3778,7 @@ ul.blog-tags li a {
   transition: all 0.3s;
 }
 .tags li a:hover {
-  background: #7977C6;
+  background:#E24A1D;
   color: #ffffff;
   transition: all 0.3s;
 }
@@ -3860,7 +3860,7 @@ ul.blog-tags li a {
   color: #161540;
 }
 .comments-heading a.reply-btn {
-  background: #7977C6;
+  background:#E24A1D;
   box-shadow: 0px 4px 25px rgba(121, 119, 198, 0.15);
   font-family: "satoshi";
   border-radius: 8px;
@@ -3913,7 +3913,7 @@ ul.blog-tags li a {
 .single-widget {
   padding: 24px;
   border-radius: 8px;
-  background: #fff;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   margin-bottom: 30px;
 }
 
@@ -4263,7 +4263,7 @@ ul.tags-list li a.active, ul.tags-list li a:hover {
   transition: all 0.3s;
 }
 .inner-blog-1 a:hover {
-  color: #7977C6;
+  color:#E24A1D;
   transition: all 0.3s;
 }
 .inner-blog-1 p {
@@ -5240,7 +5240,7 @@ img.service-shape1 {
 }
 
 .single-service-advise {
-  background: #F8F8FC;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   border-radius: 8px;
   padding: 30px;
 }
@@ -5285,7 +5285,7 @@ img.service-shape1 {
 }
 
 .inner-quote {
-  background: #E7E8F4;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   border-radius: 8px;
   padding: 30px;
   margin-top: 40px;
