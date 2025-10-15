@@ -69,11 +69,13 @@ export default function Page() {
                             </div>
 
                             {/* Tab Content */}
-                            <div className="row justify-content-center g-2">
+                            <div className="row">
                                 {partners[activeTab].map((partner, index) => (
-                                    <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-3">
-                                        <div className="partner-card" style={{height: '140px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                                            <img src={partner.src} alt={partner.alt} style={{maxHeight: '90px', width: 'auto', height: 'auto', objectFit: 'contain'}} />
+                                    <div key={index} className="col-md-6 col-lg-4">
+                                        <div className="single-partner-card">
+                                            <div className="partner-img">
+                                                <img src={partner.src} alt={partner.alt} />
+                                            </div>
                                         </div>
                                     </div>
                                 ))}

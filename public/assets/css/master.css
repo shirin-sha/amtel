@@ -4280,6 +4280,51 @@ ul.tags-list li a.active, ul.tags-list li a:hover {
   color: #7977C6;
 }
 
+/* Partner Cards - Blog Style */
+.single-partner-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(46, 46, 46, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #E6E3DE;
+  margin-bottom: 30px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(46, 46, 46, 0.15);
+  border-color: #FF7A1A;
+}
+
+.single-partner-card .partner-img {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: transparent;
+}
+
+.single-partner-card .partner-img img {
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.single-partner-card:hover .partner-img img {
+  transform: scale(1.05);
+}
+
 .single-blog p {
   margin: 16px 0 0 0;
 }
