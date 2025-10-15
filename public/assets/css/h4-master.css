@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Amtel Brand Colors */
+:root {
+  --amtel-orange: #FF7A1A;
+  --amtel-orange-deep: #E24A1D;
+  --amtel-orange-tint: #FFD7BF;
+  --amtel-grad-brand: linear-gradient(90deg, #FF7A1A 0%, #E24A1D 100%);
+}
+
 
 .home4-header-input input {
   padding: 18px;
@@ -12,12 +20,13 @@
 
 .home4-header-input-btn button {
   border: none;
-  background: #1456da;
+  background: var(--amtel-grad-brand);
   border-radius: 8px;
   padding: 18px;
   color: #fff;
   font-size: 20px;
   transition: all.3s;
+  box-shadow: 0 6px 16px rgba(226, 74, 29, 0.25);
 }
 
 .home4-header-input {
@@ -37,8 +46,10 @@
   transform: rotate(-45deg);
 }
 .home4-header-input-btn button:hover {
+  background: linear-gradient(90deg, #E24A1D, #C93D15);
   transform: translateY(-5px);
   transition: all.3s;
+  box-shadow: 0 8px 20px rgba(226, 74, 29, 0.35);
 }
 .hero-main-img2 {
   margin-right: -100px;
@@ -261,19 +272,22 @@
 
 a.learn-more {
   display: inline-block;
-  background-color: #1456da;
+  background: var(--amtel-grad-brand);
   color: #fff;
   border-radius: 5px;
   padding: 18px 20px;
   transition: all.3s;
+  box-shadow: 0 6px 16px rgba(226, 74, 29, 0.25);
 }
 a.learn-more svg {
   margin-left: 5px;
   transform: rotate(-45deg);
 }
 a.learn-more:hover {
+  background: linear-gradient(90deg, #E24A1D, #C93D15);
   transform: translateY(-5px);
   transition: all.3s;
+  box-shadow: 0 8px 20px rgba(226, 74, 29, 0.35);
 }
 
 @media screen and (max-width: 426px) {
@@ -341,7 +355,7 @@ a.learn-more:hover {
 }
 
 .home4-single-slider:hover {
-  border: 2px solid #1456da;
+  border: 2px solid var(--amtel-orange);
   transition: all.3s;
 }
 
@@ -360,7 +374,7 @@ a.learn-more:hover {
   border-radius: 50%;
 }
 .home4-service button.active {
-  background-color: #1456da;
+  background-color: var(--amtel-orange);
 }
 .home4-service .owl-dots {
   position: absolute;
@@ -395,7 +409,7 @@ a.learn-more:hover {
   border-radius: 5px;
 }
 .home4-work-items-all:hover {
-  background: #1456da10;
+  background: rgba(255, 122, 26, 0.1);
   transition: all.3s;
 }
 @media screen and (max-width: 425px) {
@@ -431,7 +445,7 @@ a.learn-more:hover {
 .owl-nav button span {
   display: inline-block;
   color: #fff;
-  background: #1456da;
+  background: var(--amtel-grad-brand);
   width: 40px;
   height: 40px;
   text-align: center;
@@ -498,7 +512,10 @@ a.learn-more:hover {
   border: none;
   border-radius: 5px;
   padding: 18px 20px;
-  background-color: #1456da;
+  background: var(--amtel-grad-brand);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(226, 74, 29, 0.25);
+  transition: all 0.3s ease;
 }
 
 .contact4-input input {
@@ -545,7 +562,7 @@ a.learn-more:hover {
   border-radius: 0px 0px 7px 7px;
 }
 a.home4-blog-btn {
-  color: #1456da;
+  color: var(--amtel-orange-deep);
 }
 
 a.home4-blog-btn svg {
@@ -567,15 +584,22 @@ a.home4-blog-btn:hover svg {
 }
 
 .subscribe-from-wrap4 button {
-  background-color: #1456da;
+  background: var(--amtel-grad-brand);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(226, 74, 29, 0.25);
+  transition: all 0.3s ease;
 }
 
 .subscribe-3 .subscribe-from-wrap.subscribe-from-wrap4 button {
-  background: #1456da;
+  background: var(--amtel-grad-brand);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(226, 74, 29, 0.25);
 }
 
 .subscribe-3 .subscribe-from-wrap.subscribe-from-wrap4 button:hover {
+  background: linear-gradient(90deg, #E24A1D, #C93D15);
   transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(226, 74, 29, 0.35);
 }
 
 

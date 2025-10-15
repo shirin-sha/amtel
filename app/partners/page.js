@@ -12,7 +12,7 @@ export default function Page() {
             { src: "/assets/img/logo/stc-logo-purple.svg", alt: "stc Kuwait" },
             { src: "/assets/img/logo/ooredoo_logo.svg", alt: "Ooredoo" },
             { src: "/assets/img/logo/future.png", alt: "future" },
-            { src: "/assets/img/logo/akn-logo-english.svg", alt: "AKN" },
+            { src: "/assets/img/logo/lulu.png", alt: "brand" },
             { src: "/assets/img/logo/arab-business-machine.png", alt: "BHG" },
             { src: "/assets/img/logo/channel-logo-color.png", alt: "Brand" },
             { src: "/assets/img/logo/Abp.png", alt: "Brand" },
@@ -28,7 +28,7 @@ export default function Page() {
             { src: "/assets/img/logo/stc-logo-purple.svg", alt: "stc Kuwait" },
             { src: "/assets/img/logo/ooredoo_logo.svg", alt: "Ooredoo" },
             { src: "/assets/img/logo/future.png", alt: "future" },
-            { src: "/assets/img/logo/akn-logo-english.svg", alt: "AKN" },
+            { src: "/assets/img/logo/lulu.png", alt: "AKN" },
             { src: "/assets/img/logo/arab-business-machine.png", alt: "BHG" },
             { src: "/assets/img/logo/channel-logo-color.png", alt: "Brand" },
             { src: "/assets/img/logo/Abp.png", alt: "Brand" }
@@ -42,7 +42,7 @@ export default function Page() {
             { src: "/assets/img/logo/arab-business-machine.png", alt: "Arab Business Machine" }
         ],
         saudi: [
-            { src: "/assets/img/logo/akn-logo-english.svg", alt: "AKN" },
+            { src: "/assets/img/logo/lulu.png", alt: "AKN" },
             { src: "/assets/img/logo/xRedington.png", alt: "xRedington" },
             { src: "/assets/img/logo/extra.png", alt: "Extra" }
         ]
@@ -72,7 +72,7 @@ export default function Page() {
                             <div className="row justify-content-center g-2">
                                 {partners[activeTab].map((partner, index) => (
                                     <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-3">
-                                        <div className="single-logo bg-white rounded shadow-sm p-3 mb-4" style={{height: '140px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                        <div className="partner-card" style={{height: '140px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                                             <img src={partner.src} alt={partner.alt} style={{maxHeight: '90px', width: 'auto', height: 'auto', objectFit: 'contain'}} />
                                         </div>
                                     </div>

@@ -7,7 +7,7 @@ export default function Footer1() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer mr50">
-                                <Link href="/" className="footer-logo"> <img src="/assets/img/logo/site-logo-3.svg" alt="" /></Link>
+                                <Link href="/" className="footer-logo"> <img src="/assets/img/logo/amtel.png" alt="" style={{maxHeight: '40px', width: 'auto'}} /></Link>
                                 <div className="space20" />
                                 <p><strong>AMTEL GROUP OF COMPANIES</strong><br />
                                     We distribute mobiles, tablets, wearables, and gaming for regional channels.<br />

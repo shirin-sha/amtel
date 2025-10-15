@@ -45,25 +45,25 @@ export default function LogoSlider2() {
         <>
             <Swiper {...swiperOptions} className="logos owl-carousel">
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/stc-logo-purple.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/stc-logo-purple.svg" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/ooredoo_logo.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/ooredoo_logo.svg" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/Zain.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/Zain.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/akn-logo-english.svg" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/lulu.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/arab-business-machine.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/arab-business-machine.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/binhindi.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/binhindi.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/Abp.png" alt="" style={{maxHeight: '150px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/Abp.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
                 </SwiperSlide>
                
             </Swiper>
