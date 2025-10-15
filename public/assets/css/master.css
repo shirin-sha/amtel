@@ -1409,15 +1409,17 @@ img {
 }
 
 .bg-28 {
-  background: url("../img/shapes/shape-8.png") no-repeat;
+  /* background: url("../img/shapes/shape-8.png") no-repeat; */
+  background-color: #F9F7F5;
   background-position: right center;
   background-size: contain;
 }
 
 .bg-29 {
-  background: url("../img/shapes/shape-8.png") no-repeat;
-  background-position: center center;
-  background-size: contain;
+  /* background: url("../img/shapes/shape-8.png") no-repeat; */
+ 
+  /* background-position: center center;
+  background-size: contain; */
 }
 
 .bg-30 {
@@ -2210,7 +2212,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #161540;
+  background: linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   z-index: 999;
 }
 .preloader .loader {
@@ -2223,7 +2225,7 @@ img {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #ffffff;
+  border-top-color: #FF7A1A;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -2236,7 +2238,7 @@ img {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #ffffff;
+  border-top-color: #FF7A1A;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -2249,7 +2251,7 @@ img {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #ffffff;
+  border-top-color: #FF7A1A;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
@@ -2561,7 +2563,7 @@ img {
     color: #243D31;
   }
   .header-2 .quick_contact:hover .quick_contact_icon {
-    border-color: #243D31;
+    border-color: #FF7A1A
   }
   .header-2 .quick_contact_content h5:hover, .header-2 .quick_contact_content a:hover {
     color: #243D31;
@@ -3599,7 +3601,7 @@ a.footer-logo {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: #161540;
+  color: #2E2E2E;
   margin-bottom: 0;
   transition: all 0.3s;
   display: block;
@@ -3614,7 +3616,7 @@ a.footer-logo {
 .single-blog h3:hover,
 .single-blog h3 a:hover {
   transition: all 0.3s;
-  color: #F23936;
+  color: #FF7A1A;
 }
 .single-blog p {
   font-size: 16px;
@@ -3824,7 +3826,7 @@ ul.blog-tags li a {
   position: relative;
   z-index: 2;
   padding: 25px 25px 25px 150px;
-  background: #E7E8F4;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   border-radius: 8px;
   margin-bottom: 30px;
 }
@@ -3884,7 +3886,7 @@ ul.blog-tags li a {
 
 .comment-form input,
 .comment-form textarea {
-  background: #E7E8F4;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   border-radius: 5px;
   border: none;
   padding: 13px;
@@ -3916,7 +3918,7 @@ ul.blog-tags li a {
 }
 
 .about-widget {
-  background: #E7E8F4;
+  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
   text-align: center;
 }
 .about-widget h4 {
@@ -3978,7 +3980,13 @@ ul.blog-tags li a {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  color: #161540;
+  color: #2E2E2E;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.recent-post-content a:hover {
+  color: #FF7A1A;
+  text-decoration: none;
 }
 
 .single-widget .blog-date-time li a {
@@ -4693,8 +4701,8 @@ button.search-icon {
 }
 
 .theme-btn-11 {
-  background: #E24A1D;
-  box-shadow: 0 4px 25px rgba(121, 119, 198, 0.5);
+  background: #FF7A1A;
+  box-shadow: 0 4px 25px rgba(226, 74, 29, 0.3);
   border-radius: 8px;
   font-family: "satoshi";
   font-weight: 700;
@@ -4707,6 +4715,15 @@ button.search-icon {
   transition: all 0.3s;
   transform: translateY(0);
   padding: 19px 20px;
+}
+.theme-btn-11:hover {
+  background: #E24A1D;
+  box-shadow: 0 6px 20px rgba(226, 74, 29, 0.4);
+  transform: translateY(-2px);
+}
+.theme-btn-11:focus {
+  outline: 3px solid #FFB36A; /* Light orange focus ring */
+  outline-offset: 2px;
 }
 .theme-btn-11 img {
   margin-left: 6px;
@@ -4727,10 +4744,10 @@ button.search-icon {
   width: 12px;
 }
 .theme-btn-11:hover {
+  background: #E24A1D; /* Ember Red - deeper orange for hover */
+  box-shadow: 0 6px 20px rgba(226, 74, 29, 0.4); /* Orange-tinted shadow */
+  transform: translateY(-2px); /* Slight lift effect */
   color: #ffffff;
-  background: #706de2;
-  transition: all 0.3s;
-  transform: translateY(-3px);
 }
 
 .theme-btn-12 {
@@ -4800,7 +4817,7 @@ button.search-icon {
   transition: all 0.3s;
 }
 .theme-btn-13:hover {
-  color: #7977C6;
+  color:#E24A1D;
 }
 .theme-btn-13:hover i,
 .theme-btn-13:hover img {
@@ -5139,11 +5156,21 @@ img.service-shape1 {
   border: 1px solid #7977C6;
 }
 
-.service-content h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 34px;
-  color: #09120E !important;
+/* Service card titles - Amtel brand colors */
+.single-inner-service .service-content h3.font-f-3 {
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 34px !important;
+  color: #2E2E2E !important;
+  transition: color 0.3s ease !important;
+}
+.single-inner-service .service-content h3.font-f-3 a {
+  color: #2E2E2E !important;
+  text-decoration: none !important;
+}
+.single-inner-service .service-content h3.font-f-3 a:hover {
+  color: #FF7A1A !important;
+  text-decoration: none !important;
 }
 .service-content p {
   font-weight: 500;
@@ -5984,11 +6011,6 @@ a.price-btn {
 .price-body ul li img {
   width: 24px;
   margin-right: 5px;
-  filter: brightness(0) saturate(100%) invert(60%) sepia(95%) saturate(1200%) hue-rotate(15deg) brightness(105%) contrast(100%);
-}
-
-.price-body ul li .pricing-icon {
-  color: #FF7A1A;
 }
 .price-body ul li:last-child {
   margin-bottom: 0;
