@@ -8954,7 +8954,8 @@ readers do not read off random characters that represent icons */
   content: "\e222"; }
 
 .fa-phone::before {
-  content: "\f095"; }
+  content: "\f095";
+  color: #FF7A1A; }
 
 .fa-phone-arrow-down-left::before {
   content: "\e223"; }

@@ -77,7 +77,7 @@ export default function CaseStudy() {
                                         <h4>Assortment Planning</h4>
                                         <p>Model lists aligned to timelines and demand—so allocations, colours, and storage
                                             options match what stores and programs actually need.</p>
-                                        <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                        {/* <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link> */}
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="single-case-study">
@@ -88,7 +88,7 @@ export default function CaseStudy() {
                                         <h4>Launch Readiness</h4>
                                         <p>Stock, documents, and messaging confirmed before day one. Clean handovers keep
                                             promotions and store rollouts smooth and on schedule.</p>
-                                        <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                        {/* <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link> */}
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="single-case-study">
@@ -99,7 +99,7 @@ export default function CaseStudy() {
                                         <h4>Continuity & Refill</h4>
                                         <p>Steady availability for core lines with early updates and sensible alternates—so shelves
                                             stay balanced and programs don’t stall.</p>
-                                        <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                        {/* <Link href="#" className="theme-btn-7">Check out Check Study <span><i className="fa-solid fa-arrow-right" /></span></Link> */}
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
