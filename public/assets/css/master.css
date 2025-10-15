@@ -6422,8 +6422,9 @@ img.shape-right-bottom {
 .single-testimonial-nav img {
   transition: all 0.1s;
   transform: scale(1);
-  border: 1px solid var(--bra);
-  padding: 8px;
+  border: 2px solid #FF7A1A;
+  border-radius: 50%;
+  padding: 6px;
 }
 
 .testimonial-2 .testimonial-arrows .slick-arrow button:hover {
