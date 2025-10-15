@@ -6066,12 +6066,12 @@ img.shape-right-bottom {
   color: #09120E;
 }
 .pricing2 a.price-btn {
-  background: #243D31;
+  background: #FF7A1A;
   box-shadow: 0 4px 25px rgba(36, 61, 49, 0.15);
   transition: all 0.3s;
 }
 .pricing2 a.price-btn.active, .pricing2 a.price-btn:hover {
-  background: #FDC24C;
+  background: #E24A1D;
   transition: all 0.3s;
 }
 .pricing2 .price-body h4 {
