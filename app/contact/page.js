@@ -260,34 +260,7 @@ export default function Page() {
                         </div>
                     </div>
                     {/*=====Faq end=======*/}
-                    {/*=====Subscribe start=======*/}
-                    <div className="subscribe-4 bg12 padding-90 inner-font-1 inner-subscribe">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="heading4 white-heading inner-heading no-margin-heading">
-                                        <h2>Want updates from Amtel?</h2>
-                                        <p>
-                                            Subscribe for concise partner notes—launches, availability, and documentation updates.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-5 col-md-6 offset-lg-1">
-                                    <div className="sunscribe-form">
-                                        <div className="subscribe-from-wrap">
-                                            <form>
-                                                <input type="email" placeholder="Email Address" />
-                                                <button type="submit" name="button">
-                                                    Subscribe Now
-                                                    <img src="/assets/img/icons/arrow-up-right.svg" alt="" />
-                                                </button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+               
                 </div>
 
             </Layout>

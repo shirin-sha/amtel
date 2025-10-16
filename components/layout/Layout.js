@@ -19,8 +19,9 @@ import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
 import Header5 from "./header/Header5"
 import Header6 from "./header/Header6"
+import Subscribe from '../homepages/home1/Subscribe'
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children }) {
+export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, showSubscribe = true }) {
     const [scroll, setScroll] = useState(0)
     // Moblile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -53,6 +54,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
             {children}
 
+            {showSubscribe && <Subscribe />}
             {!footerStyle && < Footer1 />}
             {footerStyle == 1 ? < Footer1 /> : null}
             {footerStyle == 2 ? < Footer2 /> : null}
