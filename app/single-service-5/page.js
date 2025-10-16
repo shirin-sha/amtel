@@ -53,7 +53,7 @@ export default function Page() {
                                         </p>
                                         <div className="space30" />
                                         <div className="single-blog-img">
-                                            <img src="/assets/img/blog/single1.png" alt="" />
+                                            <img src="/assets/img/service/Services-Worldwide-Exporting.jpg" alt="" />
                                         </div>
                                         <div className="space40" />
                                         <h4>What You Can Expect from Our Export Operations</h4>
@@ -81,7 +81,7 @@ export default function Page() {
                                         </div>
                                         <div className="space30" />
                                         <div className="single-blog-img">
-                                            <img src="/assets/img/blog/single1.png" alt="" />
+                                            <img src="/assets/img/service/Services-Worldwide-Exporting.jpg" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <h4>Built for scale, designed to stay calm.</h4>
@@ -238,7 +238,7 @@ export default function Page() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-1.svg" alt="" />
+                                            <img src="/assets/img/service/Services-Mobile-Distribution.jpg" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h3 className="font-f-3">Mobile Distribution</h3>
@@ -252,7 +252,7 @@ export default function Page() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-2.svg" alt="" />
+                                            <img src="/assets/img/service/Services-Apple-Products.jpg" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h3 className="font-f-3">Apple Products (Kuwait Authorized)</h3>
@@ -266,7 +266,7 @@ export default function Page() {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="single-inner-service trans-1">
                                         <div className="service-img">
-                                            <img src="/assets/img/service/service-3.svg" alt="" />
+                                            <img src="/assets/img/service/Services-Tablets-Wearables.jpg" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h3 className="font-f-3">Tablets, Wearables & Other Electronics</h3>

@@ -3917,7 +3917,7 @@ ul.blog-tags li a {
 .single-widget {
   padding: 24px;
   border-radius: 8px;
-  background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%);
+  background: #fff;
   margin-bottom: 30px;
 }
 
