@@ -18,7 +18,7 @@ export default function Page() {
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <Link href="/single-service-2"><img src="/assets/img/service/service-2.svg" alt="" /></Link>
+                                                        <Link href="/single-service-2"><img src="/assets/img/service/Services-Apple-Products.jpg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
                                                         <h3 className="font-f-3"><Link href="/single-service-2">Apple Products (Kuwait Authorized Reseller)</Link></h3>
@@ -30,7 +30,7 @@ export default function Page() {
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <Link href="/single-service-3"><img src="/assets/img/service/service-3.svg" alt="" /></Link>
+                                                        <Link href="/single-service-3"><img src="/assets/img/service/Services-Tablets-Wearables.jpg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
                                                         <h3 className="font-f-3"><Link href="/single-service-3">Tablets, Wearables & Other Electronics</Link></h3>
@@ -42,7 +42,7 @@ export default function Page() {
                                             <div className=" col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <Link href="/single-service-4"><img src="/assets/img/service/service-4.svg" alt="" /></Link>
+                                                        <Link href="/single-service-4"><img src="/assets/img/service/Services-Gaming-Accessories.jpg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
                                                         <h3 className="font-f-3"><Link href="/single-service-4">Gaming & Accessories</Link></h3>
@@ -54,7 +54,7 @@ export default function Page() {
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <Link href="/single-service-5"><img src="/assets/img/service/service-5.svg" alt="" /></Link>
+                                                        <Link href="/single-service-5"><img src="/assets/img/service/Services-Worldwide-Exporting.jpg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
                                                         <h3 className="font-f-3"><Link href="/single-service-5">Worldwide Exporting</Link></h3>
@@ -66,7 +66,7 @@ export default function Page() {
                                             <div className="col-md-6">
                                                 <div className="single-inner-service trans-1">
                                                     <div className="service-img">
-                                                        <Link href="/single-service-1"><img src="/assets/img/service/service-1.svg" alt="" /></Link>
+                                                        <Link href="/single-service-1"><img src="/assets/img/service/Services-Mobile-Distribution.jpg" alt="" /></Link>
                                                     </div>
                                                     <div className="service-content">
                                                         <h3 className="font-f-3"><Link href="/single-service-1">Mobile Distribution</Link></h3>
