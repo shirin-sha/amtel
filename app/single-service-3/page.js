@@ -7,7 +7,7 @@ export default function Page() {
 
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Tablets, Wearables & Other Electronics">
                 <div>
-                    <div className="about-inner inner-1 bg-13 section-padding">
+                    <div className="about-inner inner-1 bg-28 section-padding">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
