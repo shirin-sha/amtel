@@ -1279,15 +1279,21 @@ img {
 }
 
 .bg5 {
-  background: linear-gradient(180deg,#FFF5EE 0%,#FFF1E7 100%);
+  background: url("../img/bg/bg2.png") no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .bg5-left {
-  background: #F9F7F5;
+  background: url("../img/bg/bg4.png") no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .bg6 {
-  background: linear-gradient(180deg, #2E2E2E 0%, #1A1A1A 100%);
+  background: url("../img/bg/bg3.png") no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .bg7 {
@@ -1409,17 +1415,15 @@ img {
 }
 
 .bg-28 {
-  /* background: url("../img/shapes/shape-8.png") no-repeat; */
-  background-color: #F9F7F5;
+  background: url("../img/shapes/shape-8.png") no-repeat;
   background-position: right center;
   background-size: contain;
 }
 
 .bg-29 {
-  /* background: url("../img/shapes/shape-8.png") no-repeat; */
- 
-  /* background-position: center center;
-  background-size: contain; */
+  background: url("../img/shapes/shape-8.png") no-repeat;
+  background-position: center center;
+  background-size: contain; 
 }
 
 .bg-30 {
