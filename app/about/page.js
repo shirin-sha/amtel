@@ -262,45 +262,8 @@ export default function Page() {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="single-faq2">
-                                        <h3>Do you sell retail or only B2B?</h3>
-                                        <p>
-                                            Amtel serves B2B programs—operators, retailers, resellers, and enterprise.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>Which brands do you coordinate?</h3>
-                                        <p>
-                                            Apple (Kuwait authorized), plus Samsung, Honor, Redmi, Tecno, and Sony.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>Can you manage cross-border paperwork?</h3>
-                                        <p>
-                                            Yes—commercial invoices, COO, packing lists, serial lists, and customs.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="single-faq2">
-                                        <h3>What lead times should we expect?</h3>
-                                        <p>
-                                            Allocation-dependent. We confirm timelines at PO and keep status visible.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>How do we start a partnership?</h3>
-                                        <p>
-                                            Share company details, target categories, and destinations. We'll align scope and schedule.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>Do you support gaming categories?</h3>
-                                        <p>
-                                            Yes—PlayStation, Nintendo, Xbox, and related accessories when available.
-                                        </p>
-                                    </div>
+                                <div className="col-lg-10 m-auto">
+                                    <Faq1 />
                                 </div>
                             </div>
                         </div>

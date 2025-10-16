@@ -1,5 +1,6 @@
 
 import Layout from "@/components/layout/Layout"
+import Faq1 from "@/components/elements/Faq1"
 import Link from "next/link"
 export default function Page() {
 
@@ -200,45 +201,8 @@ export default function Page() {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="single-faq2">
-                                        <h3>Do you sell retail or only B2B?</h3>
-                                        <p>
-                                            Amtel serves B2B programs—operators, retailers, resellers, and enterprise.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>Which brands do you coordinate?</h3>
-                                        <p>
-                                            Apple (Kuwait authorized), Samsung, Honor, Redmi, Tecno, Sony, and gaming.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>How do you verify device authenticity?</h3>
-                                        <p>
-                                            Serial checks, origin papers, packing lists, and destination-compliant docs.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="single-faq2">
-                                        <h3>Can you manage cross-border paperwork?</h3>
-                                        <p>
-                                            Yes—commercial invoices, COO, packing lists, and customs coordination.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>What is the average lead time?</h3>
-                                        <p>
-                                            Lead time depends on allocation and market. We confirm timelines at PO.
-                                        </p>
-                                    </div>
-                                    <div className="single-faq2">
-                                        <h3>How do we start a partnership?</h3>
-                                        <p>
-                                            Share your company details, target categories, and destinations. We'll align on scope, terms, and schedules.
-                                        </p>
-                                    </div>
+                                <div className="col-lg-10 m-auto">
+                                    <Faq1 />
                                 </div>
                             </div>
                             <div className="space30" />
