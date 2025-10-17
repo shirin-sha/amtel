@@ -20,12 +20,12 @@ export default function Menu() {
         <>
 
             <ul className="menu_list scroll">
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About Us</Link></li>
-                <li><Link href="/service">Service</Link></li>
-                <li><Link href="/blog">Blog</Link></li>
-                <li><Link href="/partners">Partners</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
+                <li><Link href="/">HOME</Link></li>
+                <li><Link href="/about">ABOUT US</Link></li>
+                <li><Link href="/service">SERVICE</Link></li>
+                <li><Link href="/blog">BLOG</Link></li>
+                <li><Link href="/partners">PARTNERS</Link></li>
+                <li><Link href="/contact">CONTACT</Link></li>
             </ul>
         </>
     )

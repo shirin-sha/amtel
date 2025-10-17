@@ -23,13 +23,19 @@ export default function About() {
                         </div>
                         <div className="col-lg-6">
                             <div className="heading2 no-margin-heading ml50">
-                                <small data-aos="fade-left" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Coordination</small>
-                                <h2 data-aos="fade-left" data-aos-duration={800}>We Handle The Complex<br/> Device Logistics For Your Operations.</h2>
-                                <p data-aos="fade-left" data-aos-duration={1000}>Founded in 1999, Amtel supplies multi-brand electronics to channel partners across
-                                    the GCC. We handle model confirmations, serial validation, and compliant
-                                    documentation—keeping projects calm, timelines clear, and handovers predictable.</p>
-                                <p data-aos="fade-left" data-aos-duration={1000}>With entities in the UAE, Kuwait, Bahrain, and Saudi Arabia, we stay close to customers and standards. Apple Authorized in Kuwait; strong lines include Samsung, Honor,
-                                    Redmi, Tecno, Sony, plus PlayStation, Nintendo, and Xbox.</p>
+                                <small data-aos="fade-left" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Promise to Partners</small>
+                                <h2 data-aos="fade-left" data-aos-duration={800}>End-to-End Device Logistics<br/>
+                                Calm, Compliant, On Time.</h2>
+                                <p data-aos="fade-left" data-aos-duration={1000}>Since 1999, Amtel has supported carriers, retailers, and enterprise programs
+across the GCC with multi-brand electronics. We run a single, standards-led
+playbook: model-list confirmation, IMEI/serial validation, HS codes and packing
+specs, and channel-compliant documentation—so timelines stay clear and
+handovers remain predictable.</p>
+                                <p data-aos="fade-left" data-aos-duration={1000}>With operating entities in the UAE, Kuwait, Bahrain, and Saudi Arabia, we stay
+close to customers and standards. We are Apple Authorized in Kuwait and carry
+strong lines including Samsung, Honor, Redmi, Tecno, and Sony, plus
+PlayStation, Nintendo, and Xbox—bringing measured reliability to launches and
+replenishment.</p>
                                 <div className="space50" />
                                 <div className="button-group" data-aos="fade-left" data-aos-duration={1200}>
                                     <Link className="theme-btn-2" href="#">More About Us <span><i className="fa-solid fa-arrow-right" /></span></Link>

@@ -43,44 +43,51 @@ const TestimonialThumbSlider1 = () => {
                     asNavFor={nav1}
                     ref={(slider) => setSlider2(slider)}
                     className="testimonial-nav ">
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author1.jpg" alt="Procurement Lead" />
-                    </div>
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author2.jpg" alt="Category Manager" />
-                    </div>
-                    
-                    <div className="single-testimonial-nav">
-                        <img src="/assets/img/testimonial/author3.jpg" alt="Operations Director" />
-                    </div>
+					<div className="single-testimonial-nav">
+						<span className="testimonial-icon-circle"><i className="fa-solid fa-stopwatch" /></span>
+					</div>
+					<div className="single-testimonial-nav">
+						<span className="testimonial-icon-circle"><i className="fa-solid fa-diagram-project" /></span>
+					</div>
+					<div className="single-testimonial-nav">
+						<span className="testimonial-icon-circle"><i className="fa-solid fa-box-open" /></span>
+					</div>
                 </Slider>
+				<style jsx>{`
+					.testimonial-icon-circle { display: inline-flex; align-items: center; justify-content: center; width: 72px; height: 72px; border-radius: 50%; background: #e9eff3; }
+					.testimonial-icon-circle i { font-size: 42px; color: #ff5e14; }
+				`}</style>
                 <Slider
                     {...settingsMain}
                     asNavFor={nav2}
                     ref={(slider) => setSlider1(slider)}
                     className="slider-testimonial">
                     <div className="single-testimonial">
-                        <h5>“Confirmations arrived fast, documents were complete, and the rollout stayed exactly
-                            on schedule. Coordination was steady and professional from first brief to delivery.”</h5>
+                        <h5>“Clear allocations, validated serials, and channel-ready paperwork move
+together under one SOP. The result is steady timelines, clean handovers, and
+launch days that feel routine across the UAE, Kuwait, Bahrain, and Saudi Arabia.
+”</h5>
                         <div className="author">
-                            <Link href="#">Procurement Lead</Link>
-                            <p>National Telecom (KSA)</p>
+                            <Link href="#">What partners notice</Link>
+                            <p>Predictable schedules, accurate documents, calm projects.</p>
                         </div>
                     </div>
                     <div className="single-testimonial">
-                        <h5>“Amtel aligned assortments and serial lists early, so our promotions launched cleanly
-                            with no last-minute changes. Communication was clear, concise, and timely.”</h5>
+                        <h5>“From model lists to final delivery, every step is versioned, time-stamped, and
+reconciled to a single shipment reference. That’s how multi-brand projects
+across GCC markets stay simple and compliant.”</h5>
                         <div className="author">
-                            <Link href="#">Category Manager</Link>
-                            <p>Major Retail Group (Kuwait)</p>
+                            <Link href="#">Why it works</Link>
+                            <p>One source of truth, one timeline, one handover.</p>
                         </div>
                     </div>
                     <div className="single-testimonial">
-                        <h5>“Cross-border paperwork and courier handoffs were handled flawlessly. Tracking,
-                            updates, and issue flags were consistent—our team could plan with confidence.”</h5>
+                        <h5>“Allocations are confirmed, IMEIs reconciled, and documents pre-cleared before
+freight moves. Apple programs in Kuwait and multi-brand channels across the
+GCC follow the same disciplined cadence.”</h5>
                         <div className="author">
-                            <Link href="#">Operations Director</Link>
-                            <p>Regional Distributor (UAE)</p>
+                            <Link href="#">What you get </Link>
+                            <p>Clarity before dispatch, certainty at delivery</p>
                         </div>
                     </div>
                 </Slider>

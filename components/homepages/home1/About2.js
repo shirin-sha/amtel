@@ -13,12 +13,14 @@ export default function About2() {
                                 <div className="heading2 no-margin-heading">
                                     <small data-aos="fade-right" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Quick company overview</small>
                                     <h2 data-aos="fade-right" data-aos-duration={800}>Our Operational Highlights<br />At A Glance.</h2>
-                                    <p data-aos="fade-right" data-aos-duration={1000}>Distributor of mobiles, tablets, wearables, and gaming since 1999. Regional entities in
-                                        the UAE, Kuwait, Bahrain, and Saudi Arabia, with export reach across MEA, Asia,
-                                        Europe, and the USA.</p>
+                                    <p data-aos="fade-right" data-aos-duration={1000}>Across four GCC entities, Amtel delivers disciplined device logistics with a single
+operating standard, verified sourcing, serial/IMEI control, channel-compliant
+documentation, and measured handovers. Our governance, tooling, and
+vendor network enable predictable allocations, fast export clearance, and zerotolerance quality control, supporting partners from first PO to final store
+delivery.</p>
                                     <div className="space50" />
                                     <div className="button-group" data-aos="fade-right" data-aos-duration={1200}>
-                                        <Link className="theme-btn-2" href="#">More About Amtel →</Link>
+                                        <Link className="theme-btn-2" href="#">Our Key Partners →</Link>
                                     </div>
                                 </div>
                             </div>

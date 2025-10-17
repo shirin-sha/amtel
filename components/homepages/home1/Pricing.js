@@ -46,7 +46,7 @@ export default function Pricing() {
                                                     <h5>We protect partner brands and customers.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn active">Get a Free Consultation</Link>
+                                                    <Link href="/contact" className="price-btn active">Get a Free Consultation</Link>
                                                     <h4>What you can expect</h4>
                                                     <ul>
                                                         <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Authorized channels only (no grey stock)</li>
@@ -65,7 +65,7 @@ export default function Pricing() {
                                                     <h5>Close to markets, built for scale.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn">Speak to Coordination</Link>
+                                                    <Link href="/contact" className="price-btn">Speak to Coordination</Link>
                                                     <h4>Coverage and operations</h4>
                                                     <ul>
                                                         <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Entities: UAE, Kuwait, Bahrain, Saudi Arabia</li>
@@ -84,7 +84,7 @@ export default function Pricing() {
                                                     <h5>Multi-brand portfolio with disciplined execution.</h5>
                                                 </div>
                                                 <div className="price-body">
-                                                    <Link href="#" className="price-btn">View Company Profile</Link>
+										<a href="/assets/files/company-profile.pdf" className="price-btn" target="_blank" rel="noopener noreferrer">View Company Profile</a>
                                                     <h4>Lines and capabilities</h4>
                                                     <ul>
                                                         <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Apple (Kuwait) — Exclusive & Authorized</li>
@@ -146,7 +146,7 @@ export default function Pricing() {
                                                 <h5>Multi-brand portfolio with disciplined execution.</h5>
                                             </div>
                                             <div className="price-body">
-                                                <Link href="#" className="price-btn">View Company Profile</Link>
+										<a href="/assets/files/company-profile.pdf" className="price-btn" target="_blank" rel="noopener noreferrer">View Company Profile</a>
                                                 <h4>Lines and capabilities</h4>
                                                 <ul>
                                                     <li><span className="pricing-icon"><img src="/assets/img/icons/double-check2.png" alt="" /></span>Apple (Kuwait) — Exclusive & Authorized</li>

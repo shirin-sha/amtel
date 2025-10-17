@@ -10,7 +10,7 @@ export default function Footer1() {
                                 <Link href="/" className="footer-logo"> <img src="/assets/img/logo/amtel.png" alt="" style={{maxHeight: '40px', width: 'auto'}} /></Link>
                                 <div className="space20" />
                                 <p><strong>AMTEL GROUP OF COMPANIES</strong><br />
-                                    We distribute mobiles, tablets, wearables, and gaming for regional channels.<br />
+                                    We distribute mobiles, tablets, wearables, and gaming for regional channels.
                                     Four GCC entities with export reach across MEA, Asia, Europe, and the USA.</p>
                             </div>
                         </div>
@@ -45,26 +45,26 @@ export default function Footer1() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer">
                                 <h3>Get in touch</h3>
-                                <div className="footer-contact">
-                                    <div className="single-contact">
-                                        <div className="contact-icon">
-                                            <img src="/assets/img/icons/contact-email2.svg" alt="" />
-                                        </div>
-                                        <Link href="mailto:sales@amtelintnl.com">sales@amtelintnl.com</Link>
-                                        <Link href="https://amtelintnl.com" target="_blank">amtelintnl.com</Link>
-                                    </div>
+							<div className="footer-contact">
+								<div className="single-contact" style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+									<i className="fa-light fa-envelope" style={{color: '#9aa3ab'}} />
+									<Link href="mailto:sales@amtelintnl.com">sales@amtelintnl.com</Link>
+								</div>
                                 </div>
-                                <div className="footer-contact">
-                                    <div className="single-contact">
-                                        <div className="contact-icon">
-                                            <img src="/assets/img/icons/contact-phone2.svg" alt="" />
-                                        </div>
-                                        <Link href="#">UAE — +971 12345678</Link>
-                                        <Link href="#">Kuwait — +965 12345678</Link>
-                                        <Link href="#">Bahrain — +975 12345678</Link>
-                                        <Link href="#">Saudi Arabia — +966 12345678</Link>
-                                    </div>
-                                </div>
+							<div className="footer-contact footer-phone">
+								<div className="single-contact" style={{display: 'flex', alignItems: 'flex-start', gap: '10px'}}>
+									<i className="fa-light fa-phone" />
+									<div style={{display: 'grid', gap: '6px'}}>
+										<Link href="#">UAE — +971 12345678</Link>
+										<Link href="#">Kuwait — +965 12345678</Link>
+										<Link href="#">Bahrain — +975 12345678</Link>
+										<Link href="#">Saudi Arabia — +966 12345678</Link>
+									</div>
+								</div>
+							</div>
+							<style jsx>{`
+								.footer-phone .fa-phone:before { color: #9aa3ab !important; }
+							`}</style>
                             </div>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ export default function Page() {
                                 </div>
                                 <div className="col-lg-6 mobile-hidden">
                                     <div className="about-bg-main-img position-relative ml50">
-                                        <img className="border-radius" src="/assets/img/service/Services-Gaming-Accessories.jpg" alt="" />
+                                        <img className="border-radius" src="/assets/img/service/service-inner.jpg" alt="" />
                                         <div className="corner-right-bottom-shape2 position-absolute">
                                             <img src="/assets/img/shapes/shape-right-bottom2.png" alt="" />
                                         </div>
