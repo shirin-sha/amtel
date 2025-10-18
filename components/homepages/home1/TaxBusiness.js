@@ -9,7 +9,7 @@ export default function TaxBusiness() {
                     <div className="row">
                         <div className="col-md-4 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" /> B2B Mobility & Electronics, Delivered</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><i className="fa-solid fa-handshake" style={{color: '#ff6b35', marginRight: '8px'}}></i> B2B Mobility & Electronics, Delivered</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}>Verified stock. Predictable handovers.</h2>
                             </div>
                         </div>
@@ -17,8 +17,8 @@ export default function TaxBusiness() {
                     <div className="row">
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={600}>
                             <div className="single-business trans-1">
-                                <div className="business-icon">
-                                    <img src="/assets/img/icons/tax-business1.png" alt="" />
+                                <div className="business-icon" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                    <i className="fa-solid fa-mobile-screen" style={{color: '#ff6b35', fontSize: '48px'}}></i>
                                 </div>
                                 <h3>Enterprise B2B Mobile Distribution</h3>
                                 <p>High-volume sourcing and allocation for Samsung, Honor, Redmi, Tecno, and Sony. Verified provenance, competitive terms, and dependable continuity across regional
@@ -28,8 +28,8 @@ export default function TaxBusiness() {
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={800}>
                             <div className="single-business trans-1">
-                                <div className="business-icon">
-                                    <img src="/assets/img/icons/tax-business2.png" alt="" />
+                                <div className="business-icon" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                    <i className="fa-brands fa-apple" style={{color: '#ff6b35', fontSize: '48px'}}></i>
                                 </div>
                                 <h3>Authorized Apple Product Supply</h3>
                                 <p>Channel-compliant procurement and distribution of iPhone, iPad, Mac, Apple Watch,
@@ -40,8 +40,8 @@ export default function TaxBusiness() {
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1000}>
                             <div className="single-business trans-1">
-                                <div className="business-icon">
-                                    <img src="/assets/img/icons/tax-business3.png" alt="" />
+                                <div className="business-icon" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                    <i className="fa-solid fa-globe" style={{color: '#ff6b35', fontSize: '48px'}}></i>
                                 </div>
                                 <h3>Global Export & Cross-Border Fulfillment</h3>
                                 <p>End-to-end export operations—allocation, documentation, customs, and multimodal
@@ -52,8 +52,8 @@ export default function TaxBusiness() {
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1200}>
                             <div className="single-business trans-1">
-                                <div className="business-icon">
-                                    <img src="/assets/img/icons/tax-business4.png" alt="" />
+                                <div className="business-icon" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                    <i className="fa-solid fa-gamepad" style={{color: '#ff6b35', fontSize: '48px'}}></i>
                                 </div>
                                 <h3>Wholesale Gaming Consoles & Accessories</h3>
                                 <p>Bulk supply of PlayStation, Nintendo, and Xbox consoles, controllers, and peripherals
