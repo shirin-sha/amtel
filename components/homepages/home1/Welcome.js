@@ -10,8 +10,8 @@ export default function Welcome() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="title title2 ">
-                                <small data-aos="fade-right" data-aos-duration={600} className="heading-top2"><img src="/assets/img/icons/money.png" alt="" />Apple + Multi-Brand Coverage.</small>
-                                <h1  data-aos="fade-right" data-aos-duration={800}>Reliable distribution<br />for smartphones, consoles & accessories.</h1>
+                                <small data-aos="fade-right" data-aos-duration={600} className="heading-top2">Apple + Multi-Brand Coverage.</small>
+                                <h1  data-aos="fade-right" data-aos-duration={800}>Reliable distribution for<br /> Smartphones, Consoles & Accessories.</h1>
                                 <p data-aos="fade-right" data-aos-duration={1000}>From allocation to handover, we standardize every step predictable timelines,
 accurate manifests, and smooth replenishment that keeps programs stable
 across GCC markets and international exports.</p>

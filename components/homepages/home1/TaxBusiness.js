@@ -23,7 +23,7 @@ export default function TaxBusiness() {
                                 <h3>Enterprise B2B Mobile Distribution</h3>
                                 <p>High-volume sourcing and allocation for Samsung, Honor, Redmi, Tecno, and Sony. Verified provenance, competitive terms, and dependable continuity across regional
                                     channel partners.</p>
-                                <Link href="/single-service-1" className="theme-btn-7">Learn more →</Link>
+                                <Link href="/service/mobile-distribution" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={800}>
@@ -35,7 +35,7 @@ export default function TaxBusiness() {
                                 <p>Channel-compliant procurement and distribution of iPhone, iPad, Mac, Apple Watch,
                                     and accessories. Apple Exclusive & Authorized Reseller (Kuwait) for retailers,
                                     operators, and enterprise programs.</p>
-                                <Link href="/single-service-2" className="theme-btn-7">Learn more →</Link>
+                                <Link href="/service/apple-products-kuwait-authorized-reseller" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1000}>
@@ -47,7 +47,7 @@ export default function TaxBusiness() {
                                 <p>End-to-end export operations—allocation, documentation, customs, and multimodal
                                     shipping—delivered swiftly and compliantly via Aramex | FedEx with confirmed
                                     handoffs and tracking.</p>
-                                <Link href="/single-service-5" className="theme-btn-7">Learn more →</Link>
+                                <Link href="/service/worldwide-exporting" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="col-md-6" data-aos="fade-up" data-aos-duration={1200}>
@@ -58,12 +58,12 @@ export default function TaxBusiness() {
                                 <h3>Wholesale Gaming Consoles & Accessories</h3>
                                 <p>Bulk supply of PlayStation, Nintendo, and Xbox consoles, controllers, and peripherals
                                     with reliable stock continuity and clear regional warranty guidance.</p>
-                                <Link href="/single-service-4" className="theme-btn-7">Learn more →</Link>
+                                <Link href="/service/gaming-accessories" className="theme-btn-7">Learn more →</Link>
                             </div>
                         </div>
                         <div className="space20" />
                         <div className="col-12 text-center" data-aos="fade-up" data-aos-duration={1400}>
-							<Link className="theme-btn-3" href="/service" style={{borderColor: '#eeeeee'}}>Explore Services →</Link>
+							<Link className="theme-explore" href="/service">Explore Services →</Link>
                         </div>
                     </div>
                 </div>

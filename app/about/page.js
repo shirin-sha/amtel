@@ -16,7 +16,7 @@ export default function Page() {
                                 <div className="col-lg-6">
                                     <div className="mr50">
                                         <div className="heading2 no-margin-heading">
-                                            <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our promise to partners</small>
+                                            <small className="heading-top inner-heading-top"><i className="fa-solid fa-handshake" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our promise to partners</small>
                                             <h2>
                                                 We handle the hard parts, so your channels stay calm.
                                             </h2>
@@ -56,7 +56,7 @@ export default function Page() {
                                 <div className="col-lg-6">
                                     <div className="ml50">
                                         <div className="heading2 no-margin-heading">
-                                            <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />What we do—without noise</small>
+                                            <small className="heading-top inner-heading-top"><i className="fa-solid fa-cogs" style={{color: '#ff6b35', marginRight: '8px'}}></i>What we do—without noise</small>
                                             <h2>
                                                 Allocation, documentation, and delivery—done right.
                                             </h2>
@@ -79,7 +79,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 white-heading text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Why partners choose Amtel</small>
+                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-chart-bar" style={{color: '#ff6b35', marginRight: '8px'}}></i>Why partners choose Amtel</small>
                                         <h2>Our Impact in Numbers</h2>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our way of working</small>
+                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-star" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our way of working</small>
                                         <h2>Our Values in Action</h2>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-11.png" alt="" />
+                                            <i className="fa-solid fa-search" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We seek clarity</h3>
                                         <p>
@@ -139,7 +139,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-12.png" alt="" />
+                                            <i className="fa-solid fa-chart-line" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We move on data</h3>
                                         <p>
@@ -150,7 +150,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-13.png" alt="" />
+                                            <i className="fa-solid fa-arrow-trend-up" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We improve</h3>
                                         <p>
@@ -161,7 +161,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-14.png" alt="" />
+                                            <i className="fa-solid fa-heart" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We act with empathy</h3>
                                         <p>
@@ -172,7 +172,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-15.png" alt="" />
+                                            <i className="fa-solid fa-check-circle" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We stay consistent</h3>
                                         <p>
@@ -183,7 +183,7 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-16.png" alt="" />
+                                            <i className="fa-solid fa-users" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>We work together</h3>
                                         <p>
@@ -201,7 +201,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our operations in practice</small>
+                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-briefcase" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our operations in practice</small>
                                         <h2>What We Do</h2>
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@ export default function Page() {
                                 <div className="col-lg-3 col-md-6">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-11.png" alt="" />
+                                            <i className="fa-solid fa-network-wired" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>Channel Programs</h3>
                                         <p>Carrier, retailer, and enterprise allocations with brand-safe execution.</p>
@@ -219,7 +219,7 @@ export default function Page() {
                                 <div className="col-lg-3 col-md-6">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-12.png" alt="" />
+                                            <i className="fa-brands fa-apple" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>Apple in Kuwait</h3>
                                         <p>Authorized reseller operations for iPhone, iPad, Mac, and Apple Watch.</p>
@@ -228,7 +228,7 @@ export default function Page() {
                                 <div className="col-lg-3 col-md-6">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-13.png" alt="" />
+                                            <i className="fa-solid fa-mobile-screen" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>Multi-Brand Lines</h3>
                                         <p>Samsung, Honor, Redmi, Tecno, Sony—coordinated by one standards playbook.</p>
@@ -237,7 +237,7 @@ export default function Page() {
                                 <div className="col-lg-3 col-md-6">
                                     <div className="single-service text-center">
                                         <div className="service-icon bg-24">
-                                            <img src="/assets/img/icons/service-14.png" alt="" />
+                                            <i className="fa-solid fa-globe" style={{color: '#ff6b35', fontSize: '24px'}}></i>
                                         </div>
                                         <h3>Global Export Desk</h3>
                                         <p>GCC origin, compliant paperwork, and shipping to Asia, Europe, and the USA.</p>
@@ -256,7 +256,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center mb-5">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />FAQ</small>
+                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-question-circle" style={{color: '#ff6b35', marginRight: '8px'}}></i>FAQ</small>
                                         <h2>Frequently Asked Questions</h2>
                                     </div>
                                 </div>

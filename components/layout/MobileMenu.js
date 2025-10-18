@@ -25,7 +25,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                     <div className="col-12">
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
-                                <Link href="/"><img src="/assets/img/logo/site-logo-6.svg" alt="" /></Link>
+                                {/* <Link href="/"><img src="/assets/img/logo/amtel.png" alt="" style={{maxHeight: '40px', width: 'auto'}} /></Link> */}
                             </div>
                             <div className="mobile-nav-icon" onClick={handleMobileMenu}>
                                 <i className="fa-solid fa-bars" />

@@ -163,8 +163,7 @@ export default function Page() {
                                             Corporate Registry<br />
                                             Hong Kong SAR
                                         </p>
-                                        <Link href="#" className="theme-btn-13">Get Direction
-                                            <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
+                                      
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -178,8 +177,7 @@ export default function Page() {
                                             Documentation & Compliance<br />
                                             Support
                                         </p>
-                                        <Link href="#" className="theme-btn-13">Get Direction
-                                            <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
+                                      
                                     </div>
                                 </div>
                             </div>

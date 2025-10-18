@@ -1,7 +1,10 @@
 
 import Link from "next/link"
+import { blogPosts } from "@/data/blogData"
 
 export default function Blog() {
+    // Get the latest 3 blog posts
+    const latestBlogs = blogPosts.slice(0, 3)
     return (
         <>
             <div className="blog-area blog2 section-padding2">
@@ -15,50 +18,22 @@ export default function Blog() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4" data-aos="fade-up" data-aos-duration={600}>
-                            <div className="single-blog blog-md ">
-                                <div className="blog-img">
-                                    <img src="/assets/img/blog/blog4.png" alt="" />
-                                </div>
-                                <div className="blog-contents">
-                                    <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Insights</Link></li>
-                                    </ul>
-                                    <h3><Link href="/single">How to Align Model Lists for a Smooth Launch</Link>
-                                    </h3>
-                                    <Link href="#" className="theme-btn-4">Read More →</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4" data-aos="fade-up" data-aos-duration={800}>
-                            <div className="single-blog blog-md">
-                                <div className="blog-img">
-                                    <img src="/assets/img/blog/blog1.png" alt="" />
-                                </div>
-                                <div className="blog-contents">
-                                    <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Guides</Link></li>
-                                    </ul>
-                                    <h3><Link href="/single">What “Authorized” Means for Apple in Kuwait</Link></h3>
-                                    <Link href="#" className="theme-btn-4">Read More →</Link>
+                        {latestBlogs.map((blog, index) => (
+                            <div key={blog.id} className="col-lg-4" data-aos="fade-up" data-aos-duration={600 + (index * 200)}>
+                                <div className="single-blog blog-md">
+                                    <div className="blog-img">
+                                        <img src={blog.image} alt="" />
+                                    </div>
+                                    <div className="blog-contents">
+                                        <ul className="blog-tags">
+                                            <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />{blog.tag}</Link></li>
+                                        </ul>
+                                        <h3><Link href={`/blog/${blog.slug}`}>{blog.title}</Link></h3>
+                                        <Link href={`/blog/${blog.slug}`} className="theme-btn-4">Read More →</Link>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4" data-aos="fade-up" data-aos-duration={1000}>
-                            <div className="single-blog blog-md">
-                                <div className="blog-img">
-                                    <img src="/assets/img/blog/blog2.png" alt="" />
-                                </div>
-                                <div className="blog-contents">
-                                    <ul className="blog-tags">
-                                        <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />Operations</Link></li>
-                                    </ul>
-                                    <h3><Link href="/single">Export Documents Checklist for Cross-Border Shipments</Link>
-                                    </h3>
-                                    <Link href="#" className="theme-btn-4">Read More →</Link>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

@@ -1,7 +1,12 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { getAllServices } from "@/data/serviceData"
+import { blogPosts } from "@/data/blogData"
+
 export default function Page() {
+    const services = getAllServices()
+    const recentBlogs = blogPosts.slice(0, 4)
 
     return (
         <>
@@ -14,67 +19,24 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-8">
                                     <div className="lg-mr-15">
                                         <div className="row">
-                                        
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <Link href="/single-service-2"><img src="/assets/img/service/Services-Apple-Products.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3"><Link href="/single-service-2">Apple Products (Kuwait Authorized Reseller)</Link></h3>
-                                                        <p className="font-f-3">Apple Authorized in Kuwait for iPhone, iPad, Mac, Watch—compliant messaging, genuine devices, coordinated retail and operator execution.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <Link href="/single-service-3"><img src="/assets/img/service/Services-Tablets-Wearables.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3"><Link href="/single-service-3">Tablets, Wearables & Other Electronics</Link></h3>
-                                                        <p className="font-f-3">iPad, MacBook, tablet lines, and Apple Watch with essentials—education, enterprise, retail programs kept replenishment-simple.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
+                                            {services.map((service) => (
+                                                <div key={service.id} className="col-md-6">
+                                                    <div className="single-inner-service trans-1">
+                                                        <div className="service-img">
+                                                            <Link href={`/service/${service.slug}`}>
+                                                                <img src={service.image} alt="" style={{borderRadius: '8px'}} />
+                                                            </Link>
+                                                        </div>
+                                                        <div className="service-content">
+                                                            <h3 className="font-f-3">
+                                                                <Link href={`/service/${service.slug}`}>{service.title}</Link>
+                                                            </h3>
+                                                            <p className="font-f-3">{service.excerpt}</p>
+                                                            <Link className="theme-btn-11 full-btn" href={`/service/${service.slug}`}>Read More</Link>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className=" col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <Link href="/single-service-4"><img src="/assets/img/service/Services-Gaming-Accessories.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3"><Link href="/single-service-4">Gaming & Accessories</Link></h3>
-                                                        <p className="font-f-3">PlayStation, Nintendo, Xbox consoles, controllers, and peripherals—category planning, steady continuity, smooth peaks, on-time downstream launches.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <Link href="/single-service-5"><img src="/assets/img/service/Services-Worldwide-Exporting.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3"><Link href="/single-service-5">Worldwide Exporting</Link></h3>
-                                                        <p className="font-f-3">Global wholesale exporting of mobiles, tablets, wearables—allocated orders, compliant paperwork, reliable logistics, responsive support for partners.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <div className="single-inner-service trans-1">
-                                                    <div className="service-img">
-                                                        <Link href="/single-service-1"><img src="/assets/img/service/Services-Mobile-Distribution.jpg" alt="" /></Link>
-                                                    </div>
-                                                    <div className="service-content">
-                                                        <h3 className="font-f-3"><Link href="/single-service-1">Mobile Distribution</Link></h3>
-                                                        <p className="font-f-3">Samsung, Honor, Redmi, Tecno, Sony—verified models, clear specs, serial validation, planned availability and predictable assortments.</p>
-                                                        <Link className="theme-btn-11 full-btn" href="/contact">Request Quote</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            ))}
                                         </div>
                                     </div>
                                 </div>
@@ -91,81 +53,34 @@ export default function Page() {
                                         </div>
                                         <div className="single-widget recent-posts">
                                             <h3>Recent Articles</h3>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="/blog/apple-products-kuwait-market">Apple Products in Kuwait: Authorized Reseller Benefits</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="/blog/apple-products-kuwait-market">15/01/24</Link></li>
-                                                        </ul>
+                                            {recentBlogs.map((blog) => (
+                                                <div key={blog.id} className="recent-post">
+                                                    <div className="recent-post-content">
+                                                        <Link href={`/blog/${blog.slug}`}>{blog.title}</Link>
+                                                        <div className="blog-date-time">
+                                                            <ul className="blog-date">
+                                                                <li><Link href={`/blog/${blog.slug}`}>{blog.date}</Link></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div className="recent-img">
+                                                        <img src={blog.image} alt="" style={{borderRadius: '8px'}} />
                                                     </div>
                                                 </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/service/service-9.svg" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="/blog/gaming-accessories-trends-2024">Gaming Accessories Trends: What's New in 2024</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="/blog/gaming-accessories-trends-2024">12/01/24</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/service/service-8.svg" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="/blog/worldwide-exporting-guide">Complete Guide to Worldwide Electronics Exporting</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="/blog/worldwide-exporting-guide">10/01/24</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/service/service-7.svg" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="/blog/mobile-distribution-best-practices">Mobile Distribution Best Practices for Retailers</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="/blog/mobile-distribution-best-practices">08/01/24</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/service/service-6.svg" alt="" />
-                                                </div>
-                                            </div>
+                                            ))}
                                         </div>
                                         <div className="single-widget categories">
                                             <h3>Amtel Services</h3>
                                             <ul className="category-list">
-                                                <li><Link href="/single-service-2">Apple Products (Kuwait Authorized Reseller) <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="/single-service-3">Tablets, Wearables & Other Electronics <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="/single-service-4">Gaming & Accessories <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="/single-service-5">Worldwide Exporting <span><i className="fa-solid fa-angle-right" /></span></Link></li>
-                                                <li><Link href="/single-service-1">Mobile Distribution <span><i className="fa-solid fa-angle-right" /></span></Link></li>
+                                                {services.map((service) => (
+                                                    <li key={service.id}>
+                                                        <Link href={`/service/${service.slug}`}>
+                                                            {service.title} <span><i className="fa-solid fa-angle-right" /></span>
+                                                        </Link>
+                                                    </li>
+                                                ))}
                                             </ul>
                                         </div>
-                                        {/* <div className="single-widget tags-widget">
-                                            <h3>Tags</h3>
-                                            <ul className="tags-list">
-                                                <li><Link href="#">Healthcare</Link></li>
-                                                <li><Link href="#">Consult</Link></li>
-                                                <li><Link href="#">Cahless</Link></li>
-                                                <li><Link href="#">Cyberattacks</Link></li>
-                                                <li><Link href="#">Meeting</Link></li>
-                                                <li><Link href="#">Leadership</Link></li>
-                                                <li><Link href="#">Health Insurace</Link></li>
-                                            </ul>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>

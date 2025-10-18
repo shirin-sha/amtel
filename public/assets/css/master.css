@@ -4280,7 +4280,7 @@ ul.tags-list li a.active, ul.tags-list li a:hover {
 }
 
 .inner-blog-1 .single-blog h3:hover, .inner-blog-1 .single-blog h3 a:hover {
-  color: #7977C6;
+  color: #E24A1D
 }
 
 /* Partner Cards - Blog Style */
@@ -4469,7 +4469,28 @@ button.search-icon {
   transform: translateY(-2px) ;
   box-shadow: 0 8px 20px rgba(226, 74, 29, 0.35);
 }
+.theme-explore{
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  display: inline-flex;
+  padding: 15px 25px;
+  align-items: center;
 
+  transform: translateY(0);
+  border: 2px solid #eeeeee;
+  color: #eeeeee;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.theme-explore:hover {
+  transition: all 0.3s;
+  transform: translateY(-3px);
+  background: #eeeeee;
+  color: var(--amtel-orange-deep);
+}
 .theme-btn-3 {
   border-radius: 8px;
   font-weight: 700;
