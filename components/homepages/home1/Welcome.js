@@ -11,7 +11,7 @@ export default function Welcome() {
                         <div className="col-lg-6">
                             <div className="title title2 ">
                                 <small data-aos="fade-right" data-aos-duration={600} className="heading-top2">Apple + Multi-Brand Coverage.</small>
-                                <h1  data-aos="fade-right" data-aos-duration={800}>Reliable distribution for<br /> Smartphones, Consoles & Accessories.</h1>
+                                <h1  data-aos="fade-right" data-aos-duration={800} >Reliable distribution for<br /> Smartphones, Consoles & Accessories.</h1>
                                 <p data-aos="fade-right" data-aos-duration={1000}>From allocation to handover, we standardize every step predictable timelines,
 accurate manifests, and smooth replenishment that keeps programs stable
 across GCC markets and international exports.</p>
@@ -20,7 +20,7 @@ across GCC markets and international exports.</p>
                                     <Link className="theme-btn-2" href="/contact">Talk to Our Team <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                     <Link className="theme-btn-3" href="/about">See Our Standards <span><i className="fa-solid fa-arrow-right" /></span></Link>
                                 </div>
-                                <div className="space80" />
+                                <div className="space40" />
                                 <div className="logo-area2" data-aos="fade-right" data-aos-duration={1400}>
                                     <p>Trusted by more than 400+ companies worldwide</p>
                                     <LogoSlider2 />

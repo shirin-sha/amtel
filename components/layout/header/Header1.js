@@ -27,7 +27,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
 								<i className="fa-light fa-envelope" style={{color: '#FF7A1A'}} />
 							</div>
 							<div className="quick_contact_content">
-								<strong style={{fontSize: '16px'}}>Get in touch</strong>
+								<strong style={{fontSize: '15px'}}>Get in touch</strong>
 								<Link href="mailto:info@amtelintnl.com">info@amtelintnl.com</Link>
 							</div>
                                     </div>

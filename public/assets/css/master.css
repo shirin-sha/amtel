@@ -1533,15 +1533,15 @@ img {
 .title.title2 h1 {
   font-weight: 700;
   color: #09120E;
-  font-size: 54px;
-  line-height: 75px;
+  font-size: 37px;
+  line-height: 50px;
   margin-bottom: 10px;
   font-family: "satoshi";
 }
 @media (max-width: 767px) {
   .title.title2 h1 {
     font-size: 31px;
-    line-height: 46px;
+    line-height: 40px;
   }
 }
 .title p {
@@ -2396,18 +2396,17 @@ img {
 .quick_contact_content small {
   font-weight: 400;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 12px;
   color: #5C5B79;
   font-family: "DM Serif Display", serif;
 }
 .quick_contact_content h5, .quick_contact_content a {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 10px;
   color: #161540;
   font-family: "Inter", sans-serif;
   display: block;
-  margin-top: 5px;
   transition: all 0.3s;
 }
 .quick_contact_content h5:hover, .quick_contact_content a:hover {
@@ -3587,7 +3586,6 @@ a.footer-logo {
   font-size: 20px;
   line-height: 20px;
   color: #09120E;
-  margin-bottom: 20px;
 }
 @media (max-width: 767px) {
   .logo-area2 p {
