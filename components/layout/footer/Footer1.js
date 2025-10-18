@@ -7,7 +7,9 @@ export default function Footer1() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer mr50">
-                                <Link href="/" className="footer-logo"> <img src="/assets/img/logo/amtel.png" alt="" style={{maxHeight: '40px', width: 'auto'}} /></Link>
+                                <Link href="/" className="footer-logo"> 
+                                    <img src="/assets/img/logo/amtel.png" alt="Amtel Group of Companies" style={{maxHeight: '35px', width: 'auto'}} />
+                                </Link>
                                 <div className="space20" />
                                 <p><strong>AMTEL GROUP OF COMPANIES</strong><br />
                                     We distribute mobiles, tablets, wearables, and gaming for regional channels.
@@ -42,29 +44,18 @@ export default function Footer1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg col-md-6">
                             <div className="single-footer">
                                 <h3>Get in touch</h3>
-							<div className="footer-contact">
-								<div className="single-contact" style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-									<i className="fa-light fa-envelope" style={{color: '#9aa3ab'}} />
-									<Link href="mailto:sales@amtelintnl.com">sales@amtelintnl.com</Link>
-								</div>
+                                <div className="footer-menu">
+                                    <ul>
+                                        <li><i className="fa-light fa-envelope" style={{color: '#ff6b35', marginRight: '8px'}}></i><Link href="mailto:sales@amtelintnl.com">sales@amtelintnl.com</Link></li>
+                                        <li><i className="fa-light fa-phone" style={{color: '#ff6b35', marginRight: '8px'}}></i><Link href="tel:+97112345678">UAE — +971 12345678</Link></li>
+                                        <li style={{paddingLeft: '27px'}}><Link href="tel:+96512345678">Kuwait: +965 12345678</Link></li>
+                                        <li style={{paddingLeft: '27px'}}><Link href="tel:+97312345678">Bahrain: +973 12345678</Link></li>
+                                        <li style={{paddingLeft: '27px'}}><Link href="tel:+96612345678">Saudi Arabia: +966 12345678</Link></li>
+                                    </ul>
                                 </div>
-							<div className="footer-contact footer-phone">
-								<div className="single-contact" style={{display: 'flex', alignItems: 'flex-start', gap: '10px'}}>
-									<i className="fa-light fa-phone" />
-									<div style={{display: 'grid', gap: '6px'}}>
-										<Link href="#">UAE — +971 12345678</Link>
-										<Link href="#">Kuwait — +965 12345678</Link>
-										<Link href="#">Bahrain — +975 12345678</Link>
-										<Link href="#">Saudi Arabia — +966 12345678</Link>
-									</div>
-								</div>
-							</div>
-							<style jsx>{`
-								.footer-phone .fa-phone:before { color: #9aa3ab !important; }
-							`}</style>
                             </div>
                         </div>
                     </div>

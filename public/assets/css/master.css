@@ -3340,7 +3340,7 @@ a.footer-logo {
 }
 
 .footer-menu li {
-  /* margin-bottom: 14px; */
+    margin-bottom: 9px;
 }
 .footer-menu li:last-child {
   margin-bottom: 0;
