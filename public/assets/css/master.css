@@ -1399,7 +1399,7 @@ img {
 }
 
 .bg-24 {
-  /* background: #E7E8F4 !important; */
+ background:linear-gradient(180deg, #FFF5EE 0%, #FFF1E7 100%) !important;
 }
 
 .bg-25 {

@@ -169,9 +169,9 @@ export default function ServiceDetail({ params }) {
                                                 <img className="mr-2" src="/assets/img/icons/download.svg" alt="" />
                                                 Download PDF
                                             </Link>
-                                            <div className="download-card-img text-center">
+                                            {/* <div className="download-card-img text-center">
                                                 <img src="/assets/img/service/service-6.svg" alt="" />
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
