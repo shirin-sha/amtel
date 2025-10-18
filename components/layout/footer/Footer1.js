@@ -70,7 +70,7 @@ export default function Footer1() {
                                     </li>
                                     <li><Link data-bs-toggle="tooltip" title="Instagram" href="#"><i className="fa-brands fa-instagram" /></Link></li>
                                     <li><Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                    <li><Link data-bs-toggle="tooltip" title="X" href="#"><i className="fa-brands fa-x-twitter" /></Link></li>
+                                    <li><Link data-bs-toggle="tooltip" title="X" href="#"><i className="fa-brands fa-twitter" /></Link></li>
                                 </ul>
                             </div>
                         </div>
