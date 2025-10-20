@@ -290,3 +290,6 @@ export function getAllServices() {
 export function getServicesByCategory(category) {
     return services.filter(service => service.category === category);
 }
+
+
+

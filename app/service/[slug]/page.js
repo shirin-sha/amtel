@@ -218,3 +218,6 @@ export default function ServiceDetail({ params }) {
         </>
     )
 }
+
+
+

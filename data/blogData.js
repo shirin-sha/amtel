@@ -222,3 +222,6 @@ export const getRecentBlogs = (currentSlug, limit = 3) => {
     .filter(post => post.slug !== currentSlug)
     .slice(0, limit);
 };
+
+
+

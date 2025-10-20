@@ -8053,7 +8053,7 @@ li.multi-dropdown-parrent:hover > ul.multi-dropdown.theme-dropdown {
   position: fixed;
   height: 100%;
   width: 100%;
-  background: #5C5B79;
+  background: #E24A1D;
   z-index: 99;
   padding: 40px 30px;
   left: -100%;
@@ -8180,8 +8180,7 @@ span.multi-drop-icon {
 }
 
 ul.mobile-nav-list {
-  max-height: 500px;
-  overflow-y: scroll;
+  max-height: 500px
 }
 
 .product-image {
