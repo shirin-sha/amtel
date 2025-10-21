@@ -12,7 +12,7 @@ export default function Blog() {
                     <div className="row">
                         <div className="col-md-5 m-auto">
                             <div className="heading2 text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Latest from Amtel</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top">Latest from Amtel</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Take</span> a look at the latest<br />articles from Amtel.</h2>
                             </div>
                         </div>

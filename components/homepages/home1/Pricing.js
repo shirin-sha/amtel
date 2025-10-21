@@ -12,7 +12,7 @@ export default function Pricing() {
                     <div className="row">
                         <div className="col-md-5 m-auto">
                             <div className="heading2 text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Why Amtel is a safe choice</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top">Why Amtel is a safe choice</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}>Credentials & Coverage<br />You Can Trust.</h2>
                             </div>
                         </div>

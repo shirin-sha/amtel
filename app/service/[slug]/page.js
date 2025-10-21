@@ -33,7 +33,7 @@ export default function ServiceDetail({ params }) {
                                     <div className="mr50">
                                         <div className="heading2 no-margin-heading">
                                             <small className="heading-top inner-heading-top">
-                                                <img src={service.icon} alt="" />
+                                            
                                                 {service.title}
                                             </small>
                                             <h2>
@@ -186,7 +186,7 @@ export default function ServiceDetail({ params }) {
                                 <div className="col-lg-6 m-auto text-center">
                                     <div className="heading2">
                                         <small className="heading-top inner-heading-top">
-                                            <img src="/assets/img/icons/hands.svg" alt="" />Explore More
+                                           Explore More
                                         </small>
                                         <h2>Check out more services</h2>
                                     </div>
@@ -218,6 +218,7 @@ export default function ServiceDetail({ params }) {
         </>
     )
 }
+
 
 
 

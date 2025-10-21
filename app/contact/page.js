@@ -84,7 +84,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Success in Numbers</small>
+                                        <small className="heading-top inner-heading-top">Our Success in Numbers</small>
                                         <h2>Our Offices Across the Region</h2>
                                     </div>
                                 </div>
@@ -193,7 +193,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />FAQ</small>
+                                        <small className="heading-top inner-heading-top">FAQ</small>
                                         <h2>Frequently Asked Questions</h2>
                                     </div>
                                 </div>

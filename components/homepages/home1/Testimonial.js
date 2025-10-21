@@ -9,7 +9,7 @@ export default function Testimonial() {
                     <div className="row">
                         <div className="col-md-7 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our operating standard</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top">Our operating standard</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">One</span>  playbook from allocation to handover turns complex device programs into
 repeatable routines, making device logistics measurable.
 

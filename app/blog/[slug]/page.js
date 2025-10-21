@@ -153,7 +153,7 @@ export default function BlogDetail({ params }) {
                         <div className="row">
                             <div className="col-lg-8 m-auto">
                                 <div className="heading2 text-center">
-                                    <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our More Blogs</small>
+                                    <small className="heading-top inner-heading-top">Our More Blogs</small>
                                     <h2>More insights from Amtel operations.</h2>
                                 </div>
                             </div>
@@ -183,6 +183,7 @@ export default function BlogDetail({ params }) {
         </Layout>
     )
 }
+
 
 
 

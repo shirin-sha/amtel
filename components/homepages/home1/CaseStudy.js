@@ -61,7 +61,7 @@ export default function CaseStudy() {
                     <div className="row">
                         <div className="col-md-4 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Why partners choose Amtel</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top">Why partners choose Amtel</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}>Consistent Results,<br />Project After Project.</h2>
                             </div>
                         </div>

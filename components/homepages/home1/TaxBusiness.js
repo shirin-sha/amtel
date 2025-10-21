@@ -9,7 +9,7 @@ export default function TaxBusiness() {
                     <div className="row">
                         <div className="col-md-4 m-auto">
                             <div className="heading2 white-heading text-center">
-                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><i className="fa-solid fa-handshake" style={{color: '#ff6b35', marginRight: '8px'}}></i> B2B Mobility & Electronics, Delivered</small>
+                                <small data-aos="fade-up" data-aos-duration={600} className="heading-top">B2B Mobility & Electronics, Delivered</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}>Verified stock. Predictable handovers.</h2>
                             </div>
                         </div>

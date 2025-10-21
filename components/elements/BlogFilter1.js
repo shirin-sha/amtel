@@ -28,8 +28,6 @@ export default function BlogFilter1({ twocol, blogSm }) {
                                     <li className={activeBtn("operations")} onClick={() => handleFilterKeyChange("operations")}>Operations</li>
                                     <li className={activeBtn("devices")} onClick={() => handleFilterKeyChange("devices")}>Devices</li>
                                     <li className={activeBtn("export")} onClick={() => handleFilterKeyChange("export")}>Export</li>
-                                    <li className={activeBtn("insights")} onClick={() => handleFilterKeyChange("insights")}>Insights</li>
-                                    <li className={activeBtn("guides")} onClick={() => handleFilterKeyChange("guides")}>Guides</li>
                                 </ul>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ export default function About() {
                         </div>
                         <div className="col-lg-6">
                             <div className="heading2 no-margin-heading ml50">
-                                <small data-aos="fade-left" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Our Promise to Partners</small>
+                                <small data-aos="fade-left" data-aos-duration={600} className="heading-top">Our Promise to Partners</small>
                                 <h2 data-aos="fade-left" data-aos-duration={800}>End-to-End Device Logistics<br/>
                                 Calm, Compliant, On Time.</h2>
                                 <p data-aos="fade-left" data-aos-duration={1000}>Since 1999, Amtel has supported carriers, retailers, and enterprise programs

@@ -14,9 +14,9 @@ export default function Page() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <div className="mr50">
+                                    <div className="mr50 mb-5 mb-lg-0">
                                         <div className="heading2 no-margin-heading">
-                                            <small className="heading-top inner-heading-top"><i className="fa-solid fa-handshake" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our promise to partners</small>
+                                            <small className="heading-top inner-heading-top">Our promise to partners</small>
                                             <h2>
                                                 We handle the hard parts, so your channels stay calm.
                                             </h2>
@@ -46,7 +46,7 @@ export default function Page() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <div className="about-bg-main-img position-relative mr50">
+                                    <div className="about-bg-main-img position-relative mr50 mb-5 mb-lg-0">
                                         <img src="/assets/img/about/about24.png" alt="" />
                                         <div className="corner-right-bottom-shape2 position-absolute">
                                             <img src="/assets/img/shapes/shape-right-bottom2.png" alt="" />
@@ -56,7 +56,7 @@ export default function Page() {
                                 <div className="col-lg-6">
                                     <div className="ml50">
                                         <div className="heading2 no-margin-heading">
-                                            <small className="heading-top inner-heading-top"><i className="fa-solid fa-cogs" style={{color: '#ff6b35', marginRight: '8px'}}></i>What we do—without noise</small>
+                                            <small className="heading-top inner-heading-top">What we do—without noise</small>
                                             <h2>
                                                 Allocation, documentation, and delivery—done right.
                                             </h2>
@@ -79,7 +79,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 white-heading text-center">
-                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-chart-bar" style={{color: '#ff6b35', marginRight: '8px'}}></i>Why partners choose Amtel</small>
+                                        <small className="heading-top inner-heading-top">Why partners choose Amtel</small>
                                         <h2>Our Impact in Numbers</h2>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-star" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our way of working</small>
+                                        <small className="heading-top inner-heading-top">Our way of working</small>
                                         <h2>Our Values in Action</h2>
                                     </div>
                                 </div>
@@ -201,7 +201,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
-                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-briefcase" style={{color: '#ff6b35', marginRight: '8px'}}></i>Our operations in practice</small>
+                                        <small className="heading-top inner-heading-top">Our operations in practice</small>
                                         <h2>What We Do</h2>
                                     </div>
                                 </div>
@@ -256,7 +256,7 @@ export default function Page() {
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center mb-5">
-                                        <small className="heading-top inner-heading-top"><i className="fa-solid fa-question-circle" style={{color: '#ff6b35', marginRight: '8px'}}></i>FAQ</small>
+                                        <small className="heading-top inner-heading-top">FAQ</small>
                                         <h2>Frequently Asked Questions</h2>
                                     </div>
                                 </div>

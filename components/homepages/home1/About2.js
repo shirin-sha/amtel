@@ -11,7 +11,7 @@ export default function About2() {
                         <div className="col-lg-6 d-none d-lg-block">
                             <div className="mr50">
                                 <div className="heading2 no-margin-heading">
-                                    <small data-aos="fade-right" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Quick company overview</small>
+                                    <small data-aos="fade-right" data-aos-duration={600} className="heading-top">Quick company overview</small>
                                     <h2 data-aos="fade-right" data-aos-duration={800}>Our Operational Highlights<br />At A Glance.</h2>
                                     <p data-aos="fade-right" data-aos-duration={1000}>Across four GCC entities, Amtel delivers disciplined device logistics with a single
 operating standard, verified sourcing, serial/IMEI control, channel-compliant
@@ -72,7 +72,7 @@ delivery.</p>
                         <div className="col-lg-6 d-lg-none">
                             <div className="mr50">
                                 <div className="heading2 no-margin-heading">
-                                    <small className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />Quick company overview</small>
+                                    <small className="heading-top">Quick company overview</small>
                                     <h2>Our Operational Highlights<br />At A Glance.</h2>
                                     <p>Distributor of mobiles, tablets, wearables, and gaming since 1999. Regional entities in
                                         the UAE, Kuwait, Bahrain, and Saudi Arabia, with export reach across MEA, Asia,

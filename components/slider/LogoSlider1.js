@@ -14,8 +14,8 @@ const swiperOptions = {
 
     breakpoints: {
         320: {
-            slidesPerView: 1,
-            spaceBetween: 30,
+            slidesPerView: 2,
+            spaceBetween: 20,
         },
         575: {
             slidesPerView: 2,

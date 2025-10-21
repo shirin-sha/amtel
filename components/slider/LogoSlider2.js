@@ -14,8 +14,8 @@ const swiperOptions = {
 
     breakpoints: {
         320: {
-            slidesPerView: 1,
-            spaceBetween: 30,
+            slidesPerView: 2,
+            spaceBetween: 20,
         },
         575: {
             slidesPerView: 2,
@@ -45,25 +45,25 @@ export default function LogoSlider2() {
         <>
             <Swiper {...swiperOptions} className="logos owl-carousel">
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/stc-logo-purple.svg" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/stc-logo-purple.svg" alt="" style={{maxHeight: '80px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/ooredoo_logo.svg" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/ooredoo_logo.svg" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/Zain.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/Zain.png" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/lulu.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/lulu.png" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/arab-business-machine.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/arab-business-machine.png" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/binhindi.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/binhindi.png" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                 <SwiperSlide className="single-logo" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                    <img src="/assets/img/logo/Abp.png" alt="" style={{maxHeight: '200px !important', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} />
+                    <img src="/assets/img/logo/Abp.png" alt="" style={{maxHeight: '120px', width: 'auto', height: 'auto', objectFit: 'contain', opacity: '1'}} className="logo-slider-img" />
                 </SwiperSlide>
                
             </Swiper>
