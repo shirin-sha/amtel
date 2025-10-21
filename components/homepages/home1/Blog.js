@@ -26,7 +26,7 @@ export default function Blog() {
                                     </div>
                                     <div className="blog-contents">
                                         <ul className="blog-tags">
-                                            <li><Link href="#"> <img src="/assets/img/icons/hands.svg" alt="" />{blog.tag}</Link></li>
+                                            <li><Link href="#">{blog.tag}</Link></li>
                                         </ul>
                                         <h3><Link href={`/blog/${blog.slug}`}>{blog.title}</Link></h3>
                                         <Link href={`/blog/${blog.slug}`} className="theme-btn-4">Read More →</Link>
