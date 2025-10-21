@@ -3,7 +3,7 @@ export const blogPosts = [
     id: 1,
     title: "How to Align Model Lists for a Smooth Launch",
     slug: "how-to-align-model-lists-for-a-smooth-launch",
-    tag: "Insights",
+    tag: "Operations",
     date: "15.JAN.2024",
     readTime: "6 MIN READ",
     image: "/assets/img/blog/blog4.png",
@@ -25,13 +25,13 @@ export const blogPosts = [
       ],
       quote: "A model list without a timeline is only a spreadsheet. A model list with ETAs, alternates and milestones is a complete launch plan."
     },
-    tags: ["Insights", "Model Lists", "Launch Planning"]
+    tags: ["Operations", "Model Lists", "Launch Planning"]
   },
   {
     id: 2,
     title: "What \"Authorized\" Means for Apple in Kuwait",
     slug: "what-authorized-means-for-apple-in-kuwait",
-    tag: "Guides",
+    tag: "Operations",
     date: "15.JAN.2024",
     readTime: "5 MIN READ",
     image: "/assets/img/blog/blog1.png",
@@ -53,7 +53,7 @@ export const blogPosts = [
       ],
       quote: "Authorization means more than access. It is a complete approach to authenticity, compliance and communication that keeps Apple programs safe and predictable."
     },
-    tags: ["Guides", "Apple", "Authorization"]
+    tags: ["Operations", "Apple", "Authorization"]
   },
   {
     id: 3,
@@ -222,6 +222,7 @@ export const getRecentBlogs = (currentSlug, limit = 3) => {
     .filter(post => post.slug !== currentSlug)
     .slice(0, limit);
 };
+
 
 
 
